@@ -1,0 +1,121 @@
+﻿add_namespace = USA
+
+country_event = {
+	id = USA.1
+	title = USA.1.t
+	desc = USA.1.d
+	picture = GFX_report_event_german_speech
+	
+	trigger = {
+		tag = USA
+		date = 2.2.1933
+	}
+
+	option = {
+		name = USA.1.a
+		every_country = {
+			CSA = {
+				transfer_state = 374
+			}
+			CSA = {
+				transfer_state = 372
+			}
+			CSA = {
+				transfer_state = 371
+			}
+			CSA = {
+				transfer_state = 370
+			}
+			CSA = {
+				transfer_state = 368
+			}
+			CSA = {
+				transfer_state = 367
+			}
+			CSA = {
+				transfer_state = 365
+			}
+			CSA = {
+				transfer_state = 366
+			}
+			CSA = {
+				transfer_state = 364
+			}
+			CSA = {
+				transfer_state = 363
+			}
+			CSA = {
+				transfer_state = 375
+			}
+		}
+	}
+}
+
+country_event = {
+	id = USA.2
+	title = USA.2.t
+	desc = USA.2.d
+	picture = GFX_report_event_german_speech
+	
+	trigger = {
+		tag = USA
+		date = 10
+	}
+
+	option = {
+		name = USA.2.a
+		every_country = {
+			UCA = {
+				transfer_state = 261
+			}
+			UCA = {
+				transfer_state = 396
+			}
+			UCA = {
+				transfer_state = 393
+			}
+			UCA = {
+				transfer_state = 395
+			}
+			UCA = {
+				transfer_state = 394
+			}
+			UCA = {
+				transfer_state = 392
+			}
+			UCA = {
+				transfer_state = 391
+			}
+		}
+	}
+}
+
+country_event = {	
+	id = USA.3
+	title = USA.3.t
+	desc = USA.3.d
+	picture = GFX_report_event_german_speech
+	
+	trigger = {
+		tag = USA
+		date = 100
+	}
+
+	option = {
+		name = USA.3.a
+		every_country = {
+			FSA = {
+				transfer_state = 378
+			}
+			FSA = {
+				transfer_state = 379
+			}
+			FSA = {
+				transfer_state = 385
+			}
+			FSA = {
+				transfer_state = 386
+			}
+		}
+	}
+}

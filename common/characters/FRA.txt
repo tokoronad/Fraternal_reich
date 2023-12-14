@@ -1,0 +1,29 @@
+characters = {
+	FRA_jacques_doriot = {
+		name = "Jacques Doriot" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Europe/FRA/portrait_FRA_jacques_doriot.dds"
+			}
+		}
+		country_leader = {
+			ideology = revanchism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+	characters = {
+	FRA_Francois_de_la_Roque = {
+		name = "Francois de la Roque" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Europe/FRA/portrait_FRA_Francois_de_la_Roque.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_socialism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

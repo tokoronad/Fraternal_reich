@@ -1,0 +1,15 @@
+characters = {
+	CHI_lyn_sen = {
+		name = "Lyn Sen" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/China/CHI/lyn_sen.dds"
+			}
+		}
+		country_leader = {
+			ideology = market_liberalism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

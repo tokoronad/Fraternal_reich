@@ -1,0 +1,21 @@
+state={
+	id=957
+	name="STATE_957"
+	manpower = 184000
+	
+	state_category = pastoral
+
+	history={
+		owner = SIA
+		add_core_of = LAO
+		add_core_of = GEI
+		add_core_of = SIA
+
+	}
+
+	provinces={
+		10456 10330 10356
+	}
+
+	local_supplies=0.0 
+}

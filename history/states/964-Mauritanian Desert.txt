@@ -1,0 +1,20 @@
+state={
+	id=964
+	name="STATE_964" 
+	manpower = 214200
+
+	history={
+		owner = VFE
+		add_core_of = MRT
+		buildings = {
+			infrastructure = 0
+		}
+
+	}
+
+	provinces={
+		8035 10779 10838
+	}
+
+	local_supplies=0.0 
+}

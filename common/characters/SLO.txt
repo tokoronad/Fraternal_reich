@@ -1,0 +1,15 @@
+characters = {
+	SLO_Georgy_Alexandrovich = {
+		name = "Georgy Alexandrovich" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Europe/SLO/portrait_SLO_Georgy_Alexandrovich.dds"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

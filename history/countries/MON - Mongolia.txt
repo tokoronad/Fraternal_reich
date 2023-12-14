@@ -1,0 +1,24 @@
+﻿capital = 330
+
+	oob = "MON_1933"
+
+	set_research_slots = 2
+	
+recruit_character = 
+
+set_technology = {
+}
+	
+set_politics = {
+	ruling_party = 
+	last_election = "1929.12.12"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	totalism = 10
+	syndicalism = 10
+	social_democracy = 10
+	monarchy = 70
+}

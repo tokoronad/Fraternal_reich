@@ -1,0 +1,36 @@
+state={
+	id=946
+	name="STATE_946"
+	resources={
+		tungsten=6.000
+	}
+
+	history={
+		owner = GXC
+		add_core_of = GXC
+		buildings = {
+			infrastructure = 3 #was: 5
+			industrial_complex = 2
+			arms_factory = 2
+		}
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 2
+				infrastructure = 2 #was: 6
+				air_base = 1
+				arms_factory = 1
+			}
+
+		}
+
+	}
+
+	provinces={
+		7502 10377 12053 7159 4125 12378 11918
+	}
+	manpower=20293700
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=0.0 
+}

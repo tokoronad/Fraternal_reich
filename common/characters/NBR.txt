@@ -1,0 +1,15 @@
+characters = {
+	NBR_Plinio_Salgado = {
+		name = "Plinio Salgado" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/South America/NBR/portrait_NBR_Plinio_Salgado.dds"
+			}
+		}
+		country_leader = {
+			ideology = integralism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

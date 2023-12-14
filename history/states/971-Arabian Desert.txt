@@ -1,0 +1,20 @@
+state={
+	id=971
+	name="STATE_971"
+	
+	impassable = yes
+
+	history={
+		owner = SAU
+		add_core_of = SAU
+		add_core_of = EJS
+	}
+
+	provinces={
+		12768 8118 12740
+	}
+	manpower=12
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

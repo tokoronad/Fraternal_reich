@@ -1,0 +1,31 @@
+capital = 500
+
+	oob = "NBR_1933"
+
+	set_research_slots = 2
+	
+recruit_character = NBR_Plinio_Salgado
+
+set_technology = {
+}
+	
+set_politics = {
+	ruling_party = national_syndicalism
+	last_election = "1929.12.12"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	totalism = 4
+	syndicalism = 3
+	revolutionary_socialism	= 5
+	social_democracy = 2
+	conservatism = 5
+	national_conservatism = 5
+	authoritarian_democracy = 2
+	despotism = 3
+	national_syndicalism = 68
+	revolutionary_nationalism = 2
+	anarchism = 1
+}

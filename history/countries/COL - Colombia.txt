@@ -1,0 +1,31 @@
+﻿capital = 306
+
+	oob = "COL_1933"
+
+	set_research_slots = 2
+	
+recruit_character = COL_Juan_Vicente_Gomez
+
+set_technology = {
+}
+	
+set_politics = {
+	ruling_party = national_conservatism
+	last_election = "1929.12.12"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	totalism = 8
+	syndicalism = 8
+	revolutionary_socialism	= 5
+	social_democracy = 2
+	conservatism = 9
+	national_conservatism = 50
+	authoritarian_democracy = 0
+	despotism = 9
+	national_syndicalism = 3
+	revolutionary_nationalism = 6
+	anarchism = 0
+}

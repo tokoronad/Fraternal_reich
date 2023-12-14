@@ -1,0 +1,15 @@
+characters = {
+	ROM_Carol_II = {
+		name = "Carol II" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Europe/ROM/portrait_ROM_Carol_II.dds"
+			}
+		}
+		country_leader = {
+			ideology = despotism_authoritarian
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

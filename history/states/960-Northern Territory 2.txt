@@ -1,0 +1,32 @@
+
+state={
+	id=960
+	name="STATE_960"
+	resources={
+		steel=22.000
+	}
+
+	history={
+		owner = GEA
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			5207 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = GEA
+
+	}
+
+	provinces={
+		13133 5207 11016 10937 8247 10958 8209
+	}
+	manpower=13000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+
+	local_supplies=0.0 
+}

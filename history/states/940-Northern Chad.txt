@@ -1,0 +1,23 @@
+state={
+	id=940
+	name="STATE_940"
+
+	history={
+		owner = VFE
+		add_core_of = CHA
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		1473 4897 4978 3123
+	}
+	manpower=1442456
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=3.0 
+}

@@ -1,0 +1,15 @@
+characters = {
+	SRM_Eufemio_Zapata = {
+		name = "Eufemio Zapata" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/North America/SRM/portrait_SRM_Eufemio_Zapata.dds"
+			}
+		}
+		country_leader = {
+			ideology = anarcho_syndicalism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

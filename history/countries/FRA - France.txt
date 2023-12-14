@@ -1,0 +1,57 @@
+﻿capital = 16
+
+	oob = "FRA_1933" 
+
+	set_research_slots = 3
+	
+recruit_character = FRA_jacques_doriot
+recruit_character = FRA_Francois_de_la_Roque
+	
+set_technology = {
+	basic_naval_mines = 1
+	submarine_mine_laying = 1
+	early_ship_hull_light = 1
+	basic_ship_hull_light = 1
+	early_ship_hull_submarine = 1
+	basic_ship_hull_submarine = 1
+	early_ship_hull_cruiser = 1
+	early_ship_hull_heavy = 1
+	basic_ship_hull_heavy = 1
+	early_ship_hull_carrier = 1
+	basic_battery = 1
+	basic_heavy_battery = 1
+	basic_light_battery = 1
+	basic_medium_battery = 1
+	basic_torpedo = 1
+	basic_depth_charges = 1
+	basic_heavy_armor_scheme = 1
+	basic_cruiser_armor_scheme = 1
+	mtg_transport = 1
+	basic_dp_light_battery = 1
+	cruiser_submarines = 1
+}
+	
+set_politics = {
+	ruling_party = revolutionary_nationalism
+	last_election = "1933.1.12"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	revolutionary_socialism = 11
+	syndicalism = 8
+	social_democracy = 9
+	social_liberal = 6
+	conservatism = 12
+	national_conservatism = 6
+	authoritarian_democracy = 7
+	despotism = 7
+	national_syndicalism = 14
+	revolutionary_nationalism = 20
+	anarchism = 0
+}
+add_ideas = { 
+	FRA_army_separatists
+	FRA_neosocialist_pogroms
+}

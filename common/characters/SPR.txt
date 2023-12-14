@@ -1,0 +1,28 @@
+characters = {
+	SPR_Alejandro_Lerrus = {
+		name = "Alejandro Lerrus" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Europe/SPR/portrait_SPR_Alejandro_Lerrus.dds"
+			}
+		}
+		country_leader = {
+			ideology = classical_liberalism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+	SPR_Francisco_Franco = {
+		name = "Francisco Franco" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Europe/SPR/portrait_SPR_Francisco_Franco.dds"
+			}
+		}
+		country_leader = {
+			ideology = francoism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

@@ -1,0 +1,560 @@
+focus_tree = {
+	id = FRA
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = FRA
+		}
+	}
+	
+	default = no
+	focus = {
+		id = FRA_remilitarization_of_burgundy
+		icon = GFX_focus_FRA_remilitarization_of_burgundy
+		cost = 5,00
+		x = 10
+		y = 0
+		
+		completion_reward = {
+			FRA = { country_event = { id = france.1 } }
+			785 = { set_demilitarized_zone = no }
+			938 = { set_demilitarized_zone = no }
+			27 = { set_demilitarized_zone = no }
+			965 = { set_demilitarized_zone = no }
+			add_political_power = 50
+		}
+	}
+	focus = {
+		id = FRA_the_path_of_revenge
+		icon = GFX_focus_FRA_the_path_of_revenge
+		cost = 10,00
+		prerequisite = {
+			focus = FRA_remilitarization_of_burgundy
+		}
+		mutually_exclusive = {
+			focus = FRA_a_new_way_of_revenge
+		}
+		x = 5
+		y = 1
+		
+		completion_reward = {
+			FRA = { country_event = { id = france.4 } }
+			add_political_power = 25
+		}
+	}
+	focus = {
+		id = FRA_a_new_way_of_revenge
+		icon = GFX_focus_FRA_a_new_way_of_revenge
+		cost = 10,00
+		prerequisite = {
+			focus = FRA_remilitarization_of_burgundy
+		}
+		mutually_exclusive = {
+			focus = FRA_the_path_of_revenge
+		}
+		x = 15
+		y = 1
+
+		available = {
+			NOT = {
+				has_country_leader = {
+				ruling_only = yes 
+				character = FRA_jacques_doriot 
+				}
+			}
+		}
+	}
+	focus = {
+		id = FRA_elimination_of_remaining_positions
+		icon = GFX_focus_FRA_elimination_of_remaining_positions
+		cost = 10,00
+		prerequisite = {
+			focus = FRA_a_new_way_of_revenge
+			focus = FRA_the_path_of_revenge
+		}
+		x = 10
+		y = 2
+		
+			completion_reward = {	
+				add_stability = -0.05
+				add_political_power = -50
+			}
+		
+	}
+	focus = {
+		id = FRA_eliminate_conservatives
+		icon = GFX_focus_FRA_eliminate_conservatives
+		cost = 10,00
+		prerequisite = {
+			focus = FRA_elimination_of_remaining_positions
+		}
+		x = 10
+		y = 3
+		
+			completion_reward = {
+				add_popularity = {
+				ideology = conservatism
+				popularity = -0.08
+			}
+				add_popularity = {
+				ideology = social_liberal
+				popularity = -0.08
+			}	
+				add_popularity = {
+				ideology = national_conservatism
+				popularity = -0.08
+			}
+				add_popularity = {
+				ideology = revolutionary_nationalism
+				popularity = 0.1
+			}
+			add_stability = -0.05
+			add_manpower = -8000
+			add_political_power = -50
+		}
+	}
+	focus = {
+		id = FRA_deal_with_the_left
+		icon = GFX_focus_FRA_deal_with_the_left
+		cost = 10,00
+		prerequisite = {
+			focus = FRA_eliminate_conservatives
+		}
+		x = 9
+		y = 4
+
+			completion_reward = {
+				add_popularity = {
+				ideology = revolutionary_socialism
+				popularity = -0.08
+			}
+				add_popularity = {
+				ideology = syndicalism
+				popularity = -0.08
+			}	
+				add_popularity = {
+				ideology = social_democracy
+				popularity = -0.08
+			}
+				add_popularity = {
+				ideology = revolutionary_nationalism
+				popularity = 0.1
+			}
+			add_stability = 0.05
+			add_manpower = -1000
+			add_political_power = -50
+		}
+	}
+	focus = {
+		id = FRA_deal_with_the_neosocialists
+		icon = GFX_focus_FRA_deal_with_the_neosocialists
+		cost = 10,00
+		prerequisite = {
+			focus = FRA_eliminate_conservatives
+		}
+		x = 11
+		y = 4
+		
+			completion_reward = {	
+				add_popularity = {
+				ideology = national_syndicalism
+				popularity = -0.1
+			}
+				add_popularity = {
+				ideology = revolutionary_nationalism
+				popularity = 0.08
+			}
+			add_stability = -0.05
+			add_manpower = -10000
+			add_political_power = -50
+		}
+
+	}
+	focus = {
+		id = FRA_disperse_the_others
+		icon = GFX_focus_FRA_disperse_the_others
+		cost = 10,00
+		prerequisite = {
+			focus = FRA_deal_with_the_neosocialists
+			focus = FRA_deal_with_the_left
+		}
+		x = 10
+		y = 5
+
+		completion_reward = {	
+				add_popularity = {
+				ideology = authoritarian_democracy
+				popularity = -0.08
+			}
+				add_popularity = {
+				ideology = despotism
+				popularity = -0.08
+			}
+				add_popularity = {
+				ideology = revolutionary_nationalism
+				popularity = 0.05
+			}
+			add_stability = -0.05
+			add_manpower = -10000
+			add_political_power = -50
+		}
+	}
+	focus = {
+		id = FRA_racial_survey
+		icon = GFX_focus_FRA_racial_survey
+		cost = 10,00
+		prerequisite = {
+			focus = FRA_disperse_the_others
+		}
+		x = 10
+		y = 6
+
+	}
+	focus = {
+		id = FRA_persecution_of_Jews
+		icon = GFX_focus_FRA_persecution_of_Jews
+		cost = 10,00
+		prerequisite = {
+			focus = FRA_racial_survey
+		}
+		x = 10
+		y = 7
+
+	}
+	focus = {
+		id = FRA_secret_police
+		icon = GFX_focus_FRA_secret_police
+		cost = 10,00
+		prerequisite = {
+			focus = FRA_the_path_of_revenge
+		}
+		x = 1
+		y = 2
+		
+			completion_reward = {	
+				army_experience = 5
+				add_stability = 0.05
+				add_ideas = idea1 
+			}
+
+	}
+	focus = {
+		id = FRA_raise_a_call
+		icon = GFX_focus_FRA_raise_a_call
+		cost = 10,00
+		prerequisite = {
+			focus = FRA_secret_police
+		}
+		x = 1
+		y = 3
+
+			completion_reward = {	
+				army_experience = 5
+				add_manpower = 10000 
+				
+			}
+
+	}
+	focus = {
+		id = FRA_improve_the_police
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = FRA_raise_a_call
+		}
+		x = 1
+		y = 4
+
+	}
+	focus = {
+		id = FRA_kill_Francois_de_la_Roque
+		icon = GFX_focus_FRA_kill_Francois_de_la_Roque
+		cost = 10,00
+		prerequisite = {
+			focus = FRA_the_path_of_revenge
+		}
+		x = 5
+		y = 2
+
+		completion_reward = {
+			FRA = { country_event = { id = kill_Francois_de_la_Roque } }
+			add_stability = -0.1
+			add_political_power = -100
+		}
+	}
+	focus = {
+		id = FRA_kill_Jacques_Doriot
+		icon = GFX_focus_FRA_kill_Jacques_Doriot
+		cost = 10,00
+		prerequisite = {
+			focus = FRA_a_new_way_of_revenge
+		}
+		x = 15
+		y = 2
+		
+		completion_reward = {
+			FRA = { country_event = { id = kill_Jacques_Doriot } }
+			add_stability = -0.1
+			add_political_power = -100
+		}
+	}
+	focus = {
+		id = FRA_restore_fss
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = FRA_a_new_way_of_revenge
+		}
+		x = 19
+		y = 2
+
+	}
+	focus = {
+		id = FRA_raise_a_call_fss
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = FRA_restore_fss
+		}
+		x = 19
+		y = 3
+
+	}
+	focus = {
+		id = FRA_improve_fss
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = FRA_raise_a_call_fss
+		}
+		x = 19
+		y = 4
+
+	}
+	focus = {
+		id = FRA_persecution_of_Jews_and_Slavs
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = FRA_improve_fss
+		}
+		x = 19
+		y = 5
+
+	}
+	focus = {
+		id = FRA_to_the_government_fss
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = FRA_persecution_of_Jews_and_Slavs
+		}
+		x = 19
+		y = 6
+
+	}
+	focus = {
+		id = FRA_foreign_policy
+		icon = GFX_focus_FRA_foreign_policy
+		cost = 5,00
+		prerequisite = {
+			focus = FRA_remilitarization_of_burgundy
+		}
+		x = 30
+		y = 1
+		
+		add_political_power = 50
+
+	}
+	focus = {
+		id = FRA_Iberian_peninsula
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = FRA_foreign_policy
+		}
+		x = 23
+		y = 2
+		
+
+	}
+	focus = {
+		id = FRA_help_francoists
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = FRA_Iberian_peninsula
+		}
+		mutually_exclusive = {
+			focus = FRA_invade_Spain
+		}
+		x = 22
+		y = 3
+
+	}
+	focus = {
+		id = FRA_invade_Spain
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = FRA_Iberian_peninsula
+		}
+		mutually_exclusive = {
+			focus = FRA_help_francoists
+		}
+		x = 24
+		y = 3
+
+	}
+	focus = {
+		id = FRA_demand_catalonia
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = FRA_invade_Spain
+		}
+		x = 24
+		y = 5
+
+	}
+	focus = {
+		id = FRA_send_lend_lease
+		icon = GFX_goal_unknown
+		cost = 4,00
+		prerequisite = {
+			focus = FRA_help_francoists
+		}
+		x = 22
+		y = 4
+
+	}
+	focus = {
+		id = FRA_send_volunteers
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = FRA_send_lend_lease
+		}
+		x = 22
+		y = 5
+
+	}
+	focus = {
+		id = FRA_send_generals
+		icon = GFX_goal_unknown
+		cost = 6,00
+		prerequisite = {
+			focus = FRA_send_volunteers
+		}
+		x = 22
+		y = 6
+
+	}
+	focus = {
+		id = FRA_north_america
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = FRA_foreign_policy
+		}
+		x = 28
+		y = 2
+
+	}
+	focus = {
+		id = FRA_help_ksa
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = FRA_north_america
+		}
+		mutually_exclusive = {
+			focus = FRA_help_mexico
+		}
+		x = 27
+		y = 3
+
+	}
+	focus = {
+		id = FRA_help_mexico
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = FRA_north_america
+		}
+		mutually_exclusive = {
+			focus = FRA_help_ksa
+		}
+		x = 29
+		y = 3
+
+	}
+	focus = {
+		id = FRA_start_sending_len_lisa
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = FRA_help_mexico
+			focus = FRA_help_ksa
+		}
+		x = 28
+		y = 4
+
+	}
+	focus = {
+		id = FRA_brazil
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = FRA_foreign_policy
+		}
+		x = 32
+		y = 2
+
+	}
+	focus = {
+		id = FRA_brazil_send_lend_lease
+		icon = GFX_goal_unknown
+		cost = 4,00
+		prerequisite = {
+			focus = FRA_brazil
+		}
+		x = 32
+		y = 3
+
+	}
+	focus = {
+		id = FRA_brazil_send_volunteers
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = FRA_brazil_send_lend_lease
+		}
+		x = 32
+		y = 4
+
+	}
+	focus = {
+		id = FRA_brazil_send_generals
+		icon = GFX_goal_unknown
+		cost = 6,00
+		prerequisite = {
+			focus = FRA_brazil_send_volunteers
+		}
+		x = 32
+		y = 5
+
+	}
+	focus = {
+		id = FRA_china
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = FRA_foreign_policy
+		}
+		x = 36
+		y = 2
+
+	}
+}

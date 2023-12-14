@@ -1,0 +1,15 @@
+characters = {
+	IRE_Eamon_de_Valera = {
+		name = "Eamon de Valera" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Europe/IRE/portrait_IRE_Eamon_de_Valera.dds"
+			}
+		}
+		country_leader = {
+			ideology = liberal_conservatism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

@@ -1,0 +1,15 @@
+characters = {
+	RUS_Nicholas_II = {
+		name = "Nicholas II" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Europe/RUS/portrait_RUS_Nicholas_II.dds"
+			}
+		}
+		country_leader = {
+			ideology = russian_conservatism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

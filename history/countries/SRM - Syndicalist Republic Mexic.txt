@@ -1,0 +1,31 @@
+﻿capital = 485
+
+oob = "SRM_1933"
+
+	set_research_slots = 2
+	
+recruit_character = SRM_Eufemio_Zapata
+
+set_technology = {
+}
+	
+set_politics = {
+	ruling_party = syndicalism
+	last_election = "1929.12.12"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	totalism = 14
+	syndicalism = 42
+	revolutionary_socialism	= 16
+	social_democracy = 12
+	conservatism = 3
+	national_conservatism = 2
+	authoritarian_democracy = 0
+	despotism = 2
+	national_syndicalism = 3
+	revolutionary_nationalism = 1
+	anarchism = 5
+}

@@ -1,0 +1,27 @@
+
+state={
+	id=944
+	name="STATE_944" # Ivory Coast
+	manpower = 1550734
+	
+	state_category = pastoral
+	history={
+		owner = MAF
+		add_core_of = IVO
+		victory_points = {
+			10803 1
+		}
+		buildings = {
+			infrastructure = 2
+			10803 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces={
+		5070 10762 10803
+	}
+
+	local_supplies=1.0 
+}

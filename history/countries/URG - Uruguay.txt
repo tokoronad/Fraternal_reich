@@ -1,0 +1,31 @@
+﻿capital = 300
+
+oob = "URG_1933"
+
+	set_research_slots = 2
+	
+recruit_character = URG_Emilio_Frugoni
+
+set_technology = {
+}
+	
+set_politics = {
+	ruling_party = syndicalism
+	last_election = "1929.12.12"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	totalism = 16
+	syndicalism = 37
+	revolutionary_socialism	= 14
+	social_democracy = 8
+	conservatism = 3
+	national_conservatism = 6
+	authoritarian_democracy = 3
+	despotism = 2
+	national_syndicalism = 7
+	revolutionary_nationalism = 1
+	anarchism = 3
+}

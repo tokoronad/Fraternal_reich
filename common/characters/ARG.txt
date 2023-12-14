@@ -1,0 +1,15 @@
+characters = {
+	ARG_Luis_Benito_Cerutti = {
+		name = "Luis Benito Cerutti" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/South America/ARG/portrait_ARG_Luis_Benito_Cerutti.dds"
+			}
+		}
+		country_leader = {
+			ideology = utopian_syndicalism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

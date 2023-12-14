@@ -1,0 +1,75 @@
+characters = {
+	GER_william_ii = {
+		name = "William II" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Europe/GER/portrait_GER_william_ii.dds"
+			}
+		}
+		country_leader = {
+			ideology = prussian_conservatism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+characters = {
+	GER_william_ii = {
+		name = "William II" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Europe/GER/portrait_GER_william_ii.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_conservatism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+characters = {
+	GER_william_ii = {
+		name = "William II" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Europe/GER/portrait_GER_william_ii.dds"
+			}
+		}
+		country_leader = {
+			ideology = christian_democracy
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+characters = {
+	GER_william_ii = {
+		name = "William II" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Europe/GER/portrait_GER_william_ii.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_liberat
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+characters = {
+	GER_william_ii = {
+		name = "William II" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Europe/GER/portrait_GER_william_ii.dds"
+			}
+		}
+		country_leader = {
+			ideology = socialist
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

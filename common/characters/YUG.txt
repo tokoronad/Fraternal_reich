@@ -1,0 +1,15 @@
+characters = {
+	YUG_Alexander_I_Karageorgievich = {
+		name = "Alexander I Karageorgievich" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Europe/YUG/portrait_YUG_Alexander_I_Karageorgievich.dds"
+			}
+		}
+		country_leader = {
+			ideology = parliamentary_authoritarian
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

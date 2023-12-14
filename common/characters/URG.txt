@@ -1,0 +1,15 @@
+characters = {
+	URG_Emilio_Frugoni = {
+		name = "Emilio Frugoni" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/South America/URG/portrait_URG_Emilio_Frugoni.dds"
+			}
+		}
+		country_leader = {
+			ideology = syndicalism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

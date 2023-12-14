@@ -1,0 +1,16 @@
+state={
+	id=858
+	name="STATE_858"
+	provinces={
+		10870 
+	}
+	history = {
+		owner = SAU
+		add_core_of = SAU
+		add_core_of = EJS
+	}
+	manpower=690
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

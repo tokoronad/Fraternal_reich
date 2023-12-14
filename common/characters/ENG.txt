@@ -1,0 +1,15 @@
+characters = {
+	ENG_oswald_mosley = {
+		name = "Oswald Mosley" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Europe/ENG/portrait_ENG_oswald_mosley.dds"
+			}
+		}
+		country_leader = {
+			ideology = british_unionism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

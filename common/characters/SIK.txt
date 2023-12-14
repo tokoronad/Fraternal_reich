@@ -1,0 +1,15 @@
+characters = {
+	SIK_Wu_Zhongxin = {
+		name = "Wu Zhongxin" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Asia/SIK/portrait_SIK_Wu_Zhongxin.dds"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

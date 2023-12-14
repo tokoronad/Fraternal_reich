@@ -1,0 +1,15 @@
+characters = {
+	MAN_chjan_syelyan = {
+		name = "Chjan Syelyan" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/China/MAN/chjan_syelyan.dds"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

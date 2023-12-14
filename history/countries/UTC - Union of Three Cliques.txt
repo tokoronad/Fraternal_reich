@@ -1,0 +1,14 @@
+﻿capital = 605
+
+recruit_character = UTC_yan_seny
+	
+set_politics = {
+	ruling_party = conservatism
+	last_election = "1933.1.12"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	conservatism = 100
+}

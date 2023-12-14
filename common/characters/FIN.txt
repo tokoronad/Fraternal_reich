@@ -1,0 +1,15 @@
+characters = {
+	FIN_Kirill_Vladimirovich = {
+		name = "Kirill Vladimirovich" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Europe/FIN/portrait_FIN_Kirill_Vladimirovich.dds"
+			}
+		}
+		country_leader = {
+			ideology = parliamentary_monarchism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

@@ -1,0 +1,36 @@
+
+state={
+	id=966
+	name="STATE_966" 
+	manpower = 3200
+	resources={
+		steel=1 
+		aluminium=5
+	}
+
+	state_category = city
+
+	history={
+		owner = LIN
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			13273 10 
+		}
+		add_core_of = SWI
+		add_core_of = LIN
+		1939.1.1 = {
+			buildings = {
+				arms_factory = 2
+				industrial_complex = 3
+			}
+		}
+	}
+
+	provinces={
+		13273
+	}
+
+	local_supplies=1.0 
+}

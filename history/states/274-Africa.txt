@@ -1,0 +1,31 @@
+state={
+	id=274
+	name="STATE_274"
+	resources={
+		steel=8 
+		tungsten=8 
+		chromium=4
+	} #Maganese
+	history={
+		owner = MAF
+		add_core_of = GHA
+		buildings = {
+			infrastructure = 2
+			12785 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		8039 8096 12785 13136 
+	}
+	manpower=3163600
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=0.0 
+}

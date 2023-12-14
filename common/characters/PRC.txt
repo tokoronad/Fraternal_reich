@@ -1,0 +1,15 @@
+characters = {
+	PRC_mao_czedyn = {
+		name = "Mao Czedyn" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/China/PRC/mao_czedyn.dds"
+			}
+		}
+		country_leader = {
+			ideology = maoism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

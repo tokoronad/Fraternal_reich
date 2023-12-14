@@ -1,0 +1,15 @@
+characters = {
+	PAT_Antonio_Soto = {
+		name = "Antonio Soto" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/South America/PAT/portrait_PAT_Antonio_Soto.dds"
+			}
+		}
+		country_leader = {
+			ideology = syndicalism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

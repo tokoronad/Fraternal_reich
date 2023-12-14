@@ -1,0 +1,15 @@
+characters = {
+	HUN_Boris_Vladimirovich = {
+		name = "Boris Vladimirovich" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Europe/HUN/portrait_HUN_Boris_Vladimirovich.dds"
+			}
+		}
+		country_leader = {
+			ideology = despotism_authoritarian
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}}

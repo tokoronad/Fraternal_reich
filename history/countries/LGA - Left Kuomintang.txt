@@ -1,0 +1,14 @@
+﻿capital = 595
+	
+recruit_character = LGA_jou_enlay
+	
+set_politics = {
+	ruling_party = syndicalism
+	last_election = "1933.1.12"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	syndicalism = 100
+}

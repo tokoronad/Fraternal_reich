@@ -1,0 +1,15 @@
+characters = {
+	UTC_yan_seny = {
+		name = "Yan Seny" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/China/UTC/yan_seny.dds"
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

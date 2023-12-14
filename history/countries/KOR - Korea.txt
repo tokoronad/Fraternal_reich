@@ -1,0 +1,78 @@
+﻿capital = 525
+
+oob = "KOR_1933"
+
+set_research_slots = 3
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	basic_train = 1
+}
+
+set_war_support = 0.25
+set_stability = 0.34
+
+set_politics = {
+	ruling_party = national_conservatism
+	last_election = "1929.12.12"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Li Kan"
+	picture = "Portrait_Korea_conservative_monarchy_party.dds"
+	expire = "2020.1.2"
+	ideology = monarchy
+	traits = {
+	
+	}
+}
+
+create_country_leader = {
+	name = "KSDP"
+	picture = "Portrait_Korea_social_democracy_party.dds"
+	expire = "2020.1.2"
+	ideology = social_democrat
+	traits = {
+	
+	}
+}
+
+create_country_leader = {
+	name = "Kim Ir Sen"
+	picture = "Portrait_Korea_revolutionary_socialism_party.dds"
+	expire = "2020.1.2"
+	ideology = revolutionaryist_socialist
+	traits = {
+	
+	}
+}
+
+create_country_leader = {
+	name = "Nation"
+	picture = "Portrait_Korea_anarchism_party.dds"
+	expire = "2020.1.2"
+	ideology = anarcho_monarchist
+	traits = {
+	
+	}
+}
+
+create_country_leader = {
+	name = "People Power"
+	picture = "Portrait_Korea_national_conservatism_party.dds"
+	expire = "2020.1.2"
+	ideology = national_conservatism
+	traits = {
+	
+	}
+}
+
+set_popularities = {
+	national_conservatism = 63
+	social_democracy = 10
+	revolutionary_socialism = 15
+	conservative_monarchy = 12
+}

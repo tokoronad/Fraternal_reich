@@ -1,0 +1,31 @@
+﻿capital = 505
+
+	oob = "BRA_1933"
+	
+set_research_slots = 2
+	
+recruit_character = BRA_Jose_Isaias_de_Noronha
+
+set_technology = {
+}
+	
+set_politics = {
+	ruling_party = conservatism
+	last_election = "1929.12.12"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	totalism = 4
+	syndicalism = 6
+	revolutionary_socialism	= 7
+	social_democracy = 4
+	conservatism = 43
+	national_conservatism = 7
+	authoritarian_democracy = 3
+	despotism = 7
+	national_syndicalism = 4
+	revolutionary_nationalism = 15
+	anarchism = 0
+}

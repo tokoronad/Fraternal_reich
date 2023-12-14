@@ -1,0 +1,15 @@
+characters = {
+	PRU_Sanchez_Cerro = {
+		name = "Sanchez Cerro" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/South America/PRU/portrait_PRU_Sanchez_Cerro.dds"
+			}
+		}
+		country_leader = {
+			ideology = integral_nationalism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}}

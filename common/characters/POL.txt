@@ -1,0 +1,15 @@
+characters = {
+	POL_Andrei_Vladimirovich = {
+		name = "Andrei Vladimirovich" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Europe/POL/portrait_POL_Andrei_Vladimirovich.dds"
+			}
+		}
+		country_leader = {
+			ideology = monarchism_despotism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

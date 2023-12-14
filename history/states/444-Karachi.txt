@@ -1,0 +1,22 @@
+
+state={
+	id=444
+	name="STATE_444" # Baluchistan
+	manpower = 263500
+	
+	state_category = wasteland
+
+	history={
+		owner = AFG
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = PAK
+	}
+
+	provinces={
+		5075 8013 12761 
+	}
+
+	local_supplies=0.0 
+}

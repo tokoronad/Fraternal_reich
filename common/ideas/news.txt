@@ -1,0 +1,18 @@
+ideas = {
+	country = {
+		black_tuesday = {
+			
+			picture = raj_indian_gentlemen_officers
+			
+			allowed = {
+				always = no
+			}
+			
+			modifier = {
+				every_country = { 
+					
+				}
+			}
+		}
+	}
+}

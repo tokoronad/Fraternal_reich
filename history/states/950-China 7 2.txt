@@ -1,0 +1,40 @@
+
+state={
+	id=950
+	name="STATE_950"
+	manpower=14289800
+	
+	state_category = town
+	
+	buildings_max_level_factor=1.000
+
+	history={
+		owner = PRC
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 3 #was: 5
+			industrial_complex = 2
+		}
+		victory_points = {
+			9958 1 
+		}
+
+		1938.10.25 = {		
+			buildings = {
+				industrial_complex = 4
+				infrastructure = 4 #was: 8
+				air_base = 2
+				arms_factory = 2
+			}
+			PRC = {
+				set_province_controller = 1004
+			} 			
+		}
+	}
+
+	provinces={
+		6932 1603 4547 11931 4606 1004 7508 4519 7459 12012 10364 9958
+	}
+
+	local_supplies=3.0 
+}

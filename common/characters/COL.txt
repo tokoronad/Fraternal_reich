@@ -1,0 +1,15 @@
+characters = {
+	COL_Juan_Vicente_Gomez = {
+		name = "Juan Vicente Gomez" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/South America/COL/portrait_COL_Juan_Vicente_Gomez.dds"
+			}
+		}
+		country_leader = {
+			ideology = paternalistic_conservatism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

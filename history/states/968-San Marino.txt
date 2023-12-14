@@ -1,0 +1,36 @@
+
+state={
+	id=968
+	name="STATE_968" 
+	manpower = 700
+	resources={
+		steel=1 
+		aluminium=5
+	}
+
+	state_category = city
+
+	history={
+		owner = SMA
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			13275 10 
+		}
+		add_core_of = ITA
+		add_core_of = SMA
+		1939.1.1 = {
+			buildings = {
+				arms_factory = 2
+				industrial_complex = 3
+			}
+		}
+	}
+
+	provinces={
+		13275
+	}
+
+	local_supplies=1.0 
+}

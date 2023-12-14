@@ -1,0 +1,69 @@
+ideas = {
+	country = {
+		FRA_secret_police = {
+			name = FRA_secret_police
+			removal_cost = -1
+		
+			allowed = {
+				original_tag = FRA
+			}
+			
+			allowed_civel_war = {
+				always = no
+			}
+			
+			pricture = GFX_idea_FRA_raise_a_call
+			
+			modifier = {
+				add_manpower = 100
+				army_org_factor = 0.05
+					add_popularity = { 
+					ideology = revolutionary_nationalism 
+					popularity = 0.002 
+						add_autonomy_ratio = { 
+						value = 0.1
+					}
+				}
+			}
+		}
+	}
+	FRA_army_separatists = {
+		name = FRA_army_separatists
+			removal_cost = -1
+		
+			allowed = {
+				original_tag = FRA
+			}
+			
+			allowed_civel_war = {
+				always = yes
+			}
+			
+			modifier = {
+				add_war_support = -0.15
+				add_stability = -0.05
+			}
+		}
+	}
+	FRA_neosocialist_pogroms = {
+		name = FRA_neosocialist_pogroms
+			removal_cost = -1
+		
+			allowed = {
+				original_tag = FRA
+			}
+			
+			allowed_civel_war = {
+				always = yes
+			}
+			
+			modifier = {
+				add_stability = -0.05
+				add_popularity = { 
+				ideology = national_syndicalism 
+				popularity = 0.002
+				}
+			}
+		}
+	}
+}

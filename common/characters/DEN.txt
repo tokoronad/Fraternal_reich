@@ -1,0 +1,15 @@
+characters = {
+	DEN_Christian_X = {
+		name = "Christian X" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Europe/DEN/portrait_DEN_Christian_X.dds"
+			}
+		}
+		country_leader = {
+			ideology = democratic_socialism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

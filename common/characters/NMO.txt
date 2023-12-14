@@ -1,0 +1,15 @@
+characters = {
+	NMO_Dmitry_Pavlovich = {
+		name = "Dmitry Pavlovich" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/NMO/portrait_NMO_Dmitry_Pavlovich.dds"
+			}
+		}
+		country_leader = {
+			ideology = romanov_dictatorship
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

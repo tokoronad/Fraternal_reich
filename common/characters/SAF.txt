@@ -1,0 +1,15 @@
+characters = {
+	CHL_Marmaduke_Grove = {
+		name = "Marmaduke Grove" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/South America/CHL/portrait_CHL_Marmaduke_Grove.dds"
+			}
+		}
+		country_leader = {
+			ideology = utopian_syndicalism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

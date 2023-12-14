@@ -1,0 +1,15 @@
+characters = {
+	MEN_van_czunvey = {
+		name = "Van Czunvey" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/China/MEN/van_czunvey.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_syndicalism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

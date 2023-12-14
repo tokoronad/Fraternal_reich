@@ -1,0 +1,145 @@
+bookmarks = {
+	bookmark = {
+		name = "FRATEMAL_REICH_2_NAME"
+		desc = "FRATEMAL_REICH_2_DESC"
+		date = 1943.1.1.12
+		picture = "GFX_select_date_1933"
+		default_country = "GER"
+		default = yes
+		
+		"FRA"={
+			history = "FRA_GATHERING_STORM_DESC"
+			ideology = democratic
+			available = { NOT = { has_dlc = "La Resistance" } }
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"FRA"={
+			history = "FRA_GATHERING_STORM_DESC"
+			ideology = democratic
+			available = { has_dlc = "La Resistance" } 
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"USA"={
+			history = "USA_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"ENG"={
+			history = "ENG_GATHERING_STORM_DESC"
+			ideology = monarchy
+			available = { has_dlc = "Man the Guns" }
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"ENG"={
+			history = "ENG_GATHERING_STORM_DESC"
+			ideology = monarchy
+			available = { NOT = { has_dlc = "Man the Guns" } }
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"GER"={
+			history = "GER_GATHERING_STORM_DESC"
+			ideology = monarchy
+			available = { has_dlc = "Waking the Tiger" }
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"GER"={
+			history = "GER_GATHERING_STORM_DESC"
+			ideology = monarchy
+			available = { NOT = { has_dlc = "Waking the Tiger" } }
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"SPR"={
+			history = "SPR_GATHERING_STORM_DESC"
+			ideology = democratic
+			available = { has_dlc = "By Blood Alone" }
+			ideas = {
+				
+			}	
+			focuses = {
+				
+			}		
+		}
+		"SPR"={
+			history = "SPR_GATHERING_STORM_DESC"
+			ideology = democratic
+			available = { NOT = { has_dlc = "By Blood Alone" } }
+			ideas = {
+				
+			}	
+			focuses = {
+				
+			}		
+		}
+		"JAP"={
+			history = "JAP_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+				
+			}	
+			focuses = {
+				
+			}			
+		}
+		"RUS"={
+			history = "RUS_GATHERING_STORM_DESC"
+			ideology = monarchy
+			available = { has_dlc = "No Step Back" }
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}	
+		}
+		"RUS"={
+			history = "RUS_GATHERING_STORM_DESC"
+			ideology = monarchy
+			available = { NOT = { has_dlc = "No Step Back" } }
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}	
+		}
+
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+	}
+}

@@ -1,0 +1,15 @@
+characters = {
+	JER_ELuigi_Cadorna = {
+		name = "Luigi Cadorna" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/South West Asia/JER/portrait_JER_ELuigi_Cadorna.dds"
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

@@ -1,0 +1,14 @@
+﻿capital = 273
+
+recruit_character = KGA_kayshi
+	
+set_politics = {
+	ruling_party = national_conservatism
+	last_election = "1933.1.12"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	national_conservatism = 100
+}

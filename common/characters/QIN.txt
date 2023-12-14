@@ -1,0 +1,15 @@
+characters = {
+	QIN_py_i = {
+		name = "Py I" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/China/QIN/py_i.dds"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
