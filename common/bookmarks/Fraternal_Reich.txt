@@ -90,45 +90,5 @@ bookmarks = {
 				
 			}	
 		}
-
-		"---"={
-			history = "OTHER_GATHERING_STORM_DESC"
-		}
-		"RAJ"={
-			minor = yes
-			history = "RAJ_BLITZKRIEG_DESC"
-			ideology = conservative_monarchy
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-		"BRM"={
-			minor = yes
-			history = "CAN_BLITZKRIEG_DESC"
-			ideology = conservative_monarchy
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-		"NZL"={
-			minor = yes
-			history = "CAN_BLITZKRIEG_DESC"
-			ideology = conservative_monarchy
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-		"KUR"={
-			minor = yes
-			history = "KUR_KUR_DESC"
-			ideology = conservative_monarchy
-			ideas = {
-			}
-			focuses = {
-			}
-		}
 	}
 }

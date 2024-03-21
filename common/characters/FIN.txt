@@ -7,7 +7,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = parliamentary_monarchism
+			ideology = russian_conservatism
 			expire = "1950.1.1.1"
 			id = -1
 		}

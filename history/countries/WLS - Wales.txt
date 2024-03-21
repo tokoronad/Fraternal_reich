@@ -66,15 +66,22 @@ recruit_character = WLS_democratic_guy
 	}
 }
 set_politics = {
-	ruling_party = democratic
-	last_election = "1936.1.1"
+	ruling_party = national_syndicalism
+	last_election = "1933.1.12"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	democratic = 93
-	fascism = 3
-	communism = 4
+	syndicalism = 80
+	revolutionary_socialism = 0
+	social_democracy = 0
+	social_liberal = 0
+	conservatism = 0
+	national_conservatism = 0
+	authoritarian_democracy = 0
+	paternalism = 0
+	fascism = 20
+	anarchism = 0
 }
 
 #create_country_leader = {

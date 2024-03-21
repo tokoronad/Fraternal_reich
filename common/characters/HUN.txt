@@ -7,7 +7,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = despotism_authoritarian
+			ideology = romanov_dictatorship
 			expire = "1950.1.1.1"
 			id = -1
 		}

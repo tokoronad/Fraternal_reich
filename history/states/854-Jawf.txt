@@ -8,6 +8,7 @@ state={
 	history = {
 		owner = EJS
 		add_core_of = SAU
+		add_core_of = JOR
 		add_core_of = EJS
 	}
 	manpower=5000

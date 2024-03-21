@@ -5,7 +5,7 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = MAF
+		owner = OST
 		buildings = {
 			infrastructure = 1
 

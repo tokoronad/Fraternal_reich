@@ -12,31 +12,19 @@ ideologies = {
 			}
 			left_populism = {
 			}
-			utopian_marxism = {
-			}
-			national_marxism = {
-			}
 			social_nationalism = {
-			}
-			left_corporatism = {
-			}
-			national_marxism = {
 			}
 			nationalist_socialism  = {
 			}
 			gebbelarianism = {
-			}
-			neotrotskyism = {
-			}
-			social_authoritarianism = {
-			}
-			cliffism = {
 			}
 			social_interventionism = {
 			}
 			red_militarism = {
 			}
 			esoteric_socialism = {
+			}
+			colonial_government_totalism  = {
 			}
 		}
 
@@ -98,6 +86,10 @@ ideologies = {
 			}
 			african_socialism = {
 			}
+			leftist_kuomintang = {
+			}
+			colonial_government_revolutionaryist_socialist  = {
+			}
 		}
 
 		dynamic_faction_names = {
@@ -144,17 +136,25 @@ ideologies = {
 			}
 			christian_syndicalism = {
 			}
-			leftist_kemalism = {
-			}
 			red_junta = {
+			}
+			popular_front = {
+			}
+			left_corporatism = {
+			}
+			technocratic_syndicalism = {
 			}
 			left_libertarianism = {
 			}
 			left_communism = {
 			}
-			left_kuomintang = {
-			}
 			anarcho_syndicalism = {
+			}
+			left_confederalism = {
+			}	
+			left_federalist = {
+			}
+			colonial_government_syndicalism  = {
 			}
 		}
 
@@ -199,23 +199,27 @@ ideologies = {
 			}	
 			socialist = {
 			}
-			social_reformer = {
+			reformist_socialism = {
 			}	
 			christian_socialism = {
-			}						
+			}	
+			christian_progressivism = {
+			}
+			progressivism = {
+			}
+			prussian_socialism = {
+			}
 			liberal_marxism = {
 			}
 			democratic_socialism = {
 			}			
 			market_socialism = {
-			}
-			left_confederalism = {
 			}	
-			left_federalist = {
-			}	
-			social_republic = {
+			socialist_republic = {
 			}
 			menshevism = {
+			}
+			colonial_government_social_democracy  = {
 			}
 		}
 
@@ -262,15 +266,27 @@ ideologies = {
 			}		
 			classical_liberalism = {
 			}
+			liberal_conservatism = {
+			}
 			liberal_socialism = {
 			}	
 			liberal_reformation = {
 			}
 			market_liberalism = {
 			}	
-			republican = {
-			}	
+			african_liberalism = {
+			}
+			progressive_liberalism = {
+			}			
+			oligarchic_liberalism = {
+			}
+			dynastic_liberalism = {
+			}
+			moderate_technocracy = {
+			}
 			yellow_socialism = {
+			}
+			colonial_government_social_liberal  = {
 			}
 		}
 
@@ -320,16 +336,22 @@ ideologies = {
 			}							
 			christian_democracy = {
 			}
-			liberal_conservatism = {
-			}
 			social_conservatism = {
 			}			
 			federalist = {
 			}
-			paternalistic_conservatism = {
+			republican = {
+			}
+			african_federalism = {
+			}
+			oligarchic_conservatism = {
+			}
+			technocratic_corporatism = {
 			}				
 			christian_conservatism = {
-			}				
+			}	
+			colonial_government_conservatism  = {
+			}
 		}
 
 		dynamic_faction_names = {
@@ -381,21 +403,31 @@ ideologies = {
 			}
 			national_federalism = {
 			}
+			japanese_conservatism = {
+			}
 			federal_monarchy = {
 			}
 			confederalism = {
 			}
-			moderate_sansepolcrysm = {
+			african_confederalism = {
+			}
+			european_confederalism = {
+			}
+			reactionary_nationalism = {
 			}
 			populist_conservatism = {
 			}
 			constitutional_conservatism = {
 			}
-			corporatism = {
+			paternalism = {
 			}
 			national_capitalism = {
 			}
 			kuomintang = {
+			}
+			kemalism  = {
+			}
+			colonial_government_national_conservatism  = {
 			}
 		}
 
@@ -454,9 +486,9 @@ ideologies = {
 			military_authoritarian  = {
 			}					
 			quasi_monarchy  = {
-			}
-			kemalism  = {
 			}	
+			colonial_government_authoritarian  = {
+			}
 		}
 
 		dynamic_faction_names = {
@@ -497,17 +529,21 @@ ideologies = {
 		types = {
 
 			despotism  = {
-			}			
-			despotism_authoritarian  = {
-			}			
-			monarchism_despotism  = {
-			}			
+			}						
 			romanov_dictatorship  = {
 			}
 			conservative_despotism  = {
 			}		
 			feudal_monarchy  = {
-			}		
+			}
+			white_nationalism  = {
+			}
+			corporatist_paternalism = {
+			}
+			fundamentalism = {
+			}
+			corporatocracy = {
+			}
 			absolute_monarchy  = {
 			}	
 			theocracy  = {
@@ -518,7 +554,7 @@ ideologies = {
 			}	
 			controlled_democracy  = {
 			}
-			integral_nationalism = {
+			colonial_government_despotism  = {
 			}
 		}
 		
@@ -557,7 +593,9 @@ ideologies = {
 		types = {
 
 			national_syndicalism = {
-			}					
+			}	
+			national_communism = {
+			}
 			neosocialism = {
 			}	
 			ordosocialism = {
@@ -568,17 +606,17 @@ ideologies = {
 			}			
 			strasserism = {
 			}
+			national_marxism = {
+			}
 			transstrasserism = {
 			}			
 			phalangism  = {
 			}
 			monarcho_syndicalism = {
 			}
-			bolshevik_nationalism = {
+			national_bolshevism = {
 			}
-			geofascism = {
-			}
-			francisism = {
+			colonial_government_national_syndicalism  = {
 			}
 		}
 
@@ -646,10 +684,6 @@ ideologies = {
 			}
 			esoteric_despotism = {
 			}
-			national_sansepolcrism = {
-			}
-			volism = {
-			}
 			neoottomanism = {
 			}
 			polish_phalangism = {
@@ -660,9 +694,11 @@ ideologies = {
 			}
 			psychedelic_fascism = {
 			}
-			postfascism = {
-			}
 			ultra_right_kuomintang = {
+			}
+			african_nationalism = {
+			}
+			colonial_government_revolutionary_nationalism  = {
 			}
 		}
 

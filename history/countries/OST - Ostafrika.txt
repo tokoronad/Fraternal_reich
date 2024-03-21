@@ -1,0 +1,32 @@
+﻿capital = 546
+
+	oob = "OST_1933"
+
+	set_research_slots = 2
+	
+recruit_character = MAF_Hermann_Goering
+
+set_technology = {
+}
+	
+set_politics = {
+	ruling_party = despotism
+	last_election = "1929.12.12"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	totalism = 5
+	syndicalism = 8
+	revolutionary_socialism	= 11
+	social_democracy = 3
+	social_liberal = 1
+	conservatism = 3
+	national_conservatism = 5
+	authoritarian_democracy = 8
+	despotism = 46
+	national_syndicalism = 1
+	revolutionary_nationalism = 8
+	anarchism = 1
+}

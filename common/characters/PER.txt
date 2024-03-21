@@ -1,0 +1,15 @@
+characters = {
+	PER_Reza_Pahlavi = {
+		name = "Reza Pahlavi" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/South West Asia/PER/portrait_PER_Reza_Pahlavi.dds"
+			}
+		}
+		country_leader = {
+			ideology = parliamentary_monarchism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

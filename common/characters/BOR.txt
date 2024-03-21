@@ -1,0 +1,15 @@
+characters = {
+	BOR_Jan_Smuts = {
+		name = "Jan Smuts" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/BOR/portrait_BOR_Jan_Smuts.dds"
+			}
+		}
+		country_leader = {
+			ideology = paternalistic_conservatism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
