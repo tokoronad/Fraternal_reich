@@ -1,0 +1,15 @@
+characters = {
+	LEB_Hugo_Cavaliero = {
+		name = "Hugo Cavaliero" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/South West Asia/LEB/portrait_LEB_Hugo_Cavaliero.dds"
+			}
+		}
+		country_leader = {
+			ideology = colonial_government_despotism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

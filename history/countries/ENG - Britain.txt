@@ -6,7 +6,18 @@
 	
 recruit_character = ENG_oswald_mosley
 
-	
+if = {
+	set_autonomy = {
+		target = SCO
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.2
+	}
+	set_autonomy = {
+		target = WLS
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.2
+	}
+}
 set_technology = {
 	basic_naval_mines = 1
 	submarine_mine_laying = 1
@@ -42,16 +53,17 @@ set_politics = {
 }
 
 set_popularities = {
-	syndicalism = 5
-	revolutionary_socialism = 6
-	social_democracy = 6
-	social_liberal = 5
-	conservatism = 8
-	national_conservatism = 5
+	syndicalism = 0
+	revolutionary_socialism = 10
+	social_democracy = 0
+	social_liberal = 0
+	conservatism = 0
+	national_conservatism = 0
 	authoritarian_democracy = 0
-	paternalism = 0
-	fascism = 65
 	anarchism = 0
+	national_syndicalism = 90
 }
 create_faction = Entente
 add_to_faction = FRA
+
+

@@ -1,0 +1,15 @@
+characters = {
+	EJS_Saud_ibn_Abd_al_Aziz_Al_Rashid = {
+		name = "Saud ibn Abd al-Aziz Al Rashid" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/South West Asia/EJS/portrait_EJS_Saud_ibn_Abd_al_Aziz_Al_Rashid.dds"
+			}
+		}
+		country_leader = {
+			ideology = absolute_monarchy
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

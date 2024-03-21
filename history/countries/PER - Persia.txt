@@ -2,54 +2,11 @@
 
 	oob = "PER_1933"
 
-	set_research_slots = 3
+	set_research_slots = 2
 	
-recruit_character = 
-recruit_character = 
-recruit_character = 
-recruit_character = 
-recruit_character = 
-recruit_character = 
-recruit_character = 
-recruit_character = 
-recruit_character = 
-recruit_character = 
-recruit_character = 
-recruit_character = 
+recruit_character = PER_Reza_Pahlavi
 
 set_technology = {
-	interwar_artillery = 1
-	interwar_antitank = 1
-	infantry_weapons2 = 1
-	support_weapons = 1
-	support_weapons2 = 1
-	paratroopers = 1
-	pocket_defence = 1
-	defence_in_depth = 1
-	battlefleet_concentration = 1
-	submarine_operations = 1
-	formation_flying = 1		
-	dive_bombing = 1
-	direct_ground_support = 1
-	electronic_mechanical_engineering = 1
-	radio = 1
-	radio_detection = 1
-	mechanical_computing = 1
-	computing_machine = 1
-	basic_encryption = 1
-	basic_decryption = 1
-	basic_machine_tools = 1
-	improved_machine_tools = 1
-	advanced_machine_tools = 1
-	synth_oil_experiments = 1
-	oil_processing = 1
-	fuel_refining2 = 1
-	construction1 = 1
-	construction2 = 1
-	construction3 = 1
-	concentrated_industry = 1
-	concentrated_industry2 = 1
-	concentrated_industry3 = 1
 }
 	
 set_politics = {
@@ -60,10 +17,16 @@ set_politics = {
 }
 
 set_popularities = {
-	totalism = 5
+	totalism = 2
 	syndicalism = 5
-	national_conservatism = 5
-	authoritarian_democracy = 70
-	nationalism = 5
-	fascism = 10
+	revolutionary_socialism	= 6
+	social_democracy = 8
+	social_liberal = 4
+	conservatism = 8
+	national_conservatism = 4
+	authoritarian_democracy = 57
+	despotism = 2
+	national_syndicalism = 1
+	revolutionary_nationalism = 3
+	anarchism = 0
 }

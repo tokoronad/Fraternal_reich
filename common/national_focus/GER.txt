@@ -1,0 +1,2174 @@
+focus_tree = {
+	id = GER
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = GER
+		}
+	}
+	default = no
+	focus = {
+		id = GER_Riots
+		icon = GFX_goal_generic_demand_territory
+		cost = 1
+		x = 13
+		y = 0
+
+	}
+	focus = {
+		id = GER_Reclaim_your_territories
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 29
+		y = 33
+
+	}
+	focus = {
+		id = GER_Berlin_is_on_fire
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		cost = 1
+		prerequisite = {
+			focus = GER_Riots
+		}
+		x = 13
+		y = 1
+
+	}
+	focus = {
+		id = GER_Arson_of_the_Reichstag
+		icon = GFX_goal_generic_secret_weapon
+		cost = 1
+		prerequisite = {
+			focus = GER_Berlin_is_on_fire
+		}
+		x = 13
+		y = 2
+
+	}
+	focus = {
+		id = GER_New_candidates
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_Arson_of_the_Reichstag
+		}
+		x = 12
+		y = 3
+
+	}
+	focus = {
+		id = GER_Restoration_of_the_Reichstag
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_New_candidates
+		}
+		x = 12
+		y = 4
+
+	}
+	focus = {
+		id = GER_police
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_Arson_of_the_Reichstag
+		}
+		x = 14
+		y = 3
+
+	}
+	focus = {
+		id = GER_concessions
+		icon = GFX_goal_generic_alliance
+		cost = 5
+		prerequisite = {
+			focus = GER_police
+		}
+		x = 14
+		y = 4
+
+	}
+	focus = {
+		id = GER_Elections
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_Restoration_of_the_Reichstag
+		}
+		prerequisite = {
+			focus = GER_concessions
+		}
+		x = 13
+		y = 5
+
+	}
+	focus = {
+		id = GER_Absolute_monarchy
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_Elections
+		}
+		mutually_exclusive = {
+			focus = GER_Hindenburg
+		}
+		x = 7
+		y = 6
+
+	}
+	focus = {
+		id = GER_Cultural_impersonation_imperator
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_Absolute_monarchy
+		}
+		x = 5
+		y = 7
+
+	}
+	focus = {
+		id = GER_Imperial_laws
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_Absolute_monarchy
+		}
+		x = 9
+		y = 7
+
+	}
+	focus = {
+		id = GER_Hindenburg
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GER_Elections
+		}
+		mutually_exclusive = {
+			focus = GER_Absolute_monarchy
+			focus = GER_Democracy
+		}
+		x = 15
+		y = 6
+
+	}
+	focus = {
+		id = GER_Attack_riot
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GER_Hindenburg
+		}
+		x = 14
+		y = 7
+
+	}
+	focus = {
+		id = GER_army_in_the_berlin
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GER_Attack_riot
+		}
+		x = 14
+		y = 8
+
+	}
+	focus = {
+		id = GER_Realm_of_the_terror
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_army_in_the_berlin
+		}
+		x = 14
+		y = 9
+
+	}
+	focus = {
+		id = GER_berlin_is_in_the_blood
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_Realm_of_the_terror
+		}
+		x = 14
+		y = 10
+
+	}
+	focus = {
+		id = GER_Teutonic_orden
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_Hindenburg
+		}
+		x = 16
+		y = 7
+
+	}
+	focus = {
+		id = GER_Racial_laws
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_Teutonic_orden
+		}
+		x = 16
+		y = 8
+
+	}
+	focus = {
+		id = GER_Religious_laws
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_Racial_laws
+		}
+		x = 16
+		y = 9
+
+	}
+	focus = {
+		id = GER_Teutonic_greatness
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_Religious_laws
+		}
+		x = 16
+		y = 10
+
+	}
+	focus = {
+		id = GER_Execute_William
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GER_Hindenburg
+		}
+		x = 18
+		y = 7
+
+	}
+	focus = {
+		id = GER_Cultural_Revolution
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GER_Execute_William
+		}
+		x = 18
+		y = 8
+
+	}
+	focus = {
+		id = GER_Execute_the_Communists
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GER_Cultural_Revolution
+		}
+		x = 18
+		y = 9
+
+	}
+	focus = {
+		id = GER_Teutonic_reich
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GER_berlin_is_in_the_blood
+		}
+		prerequisite = {
+			focus = GER_Teutonic_greatness
+		}
+		prerequisite = {
+			focus = GER_Execute_the_Communists
+		}
+		x = 16
+		y = 11
+
+	}
+	focus = {
+		id = GER_The_Knights_have_captured
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_Teutonic_reich
+		}
+		x = 16
+		y = 12
+
+	}
+	focus = {
+		id = GER_Madness_of_the_Church
+		icon = GFX_goal_unknown
+		cost = 1
+		prerequisite = {
+			focus = GER_The_Knights_have_captured
+		}
+		x = 19
+		y = 14
+
+	}
+	focus = {
+		id = GER_Terror_of_the_Kings
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GER_Madness_of_the_Church
+		}
+		x = 18
+		y = 15
+
+	}
+	focus = {
+		id = GER_Secret_Police_of_Catholicism
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GER_Madness_of_the_Church
+		}
+		x = 20
+		y = 15
+
+	}
+	focus = {
+		id = GER_Holy_military_Temples
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GER_Secret_Police_of_Catholicism
+		}
+		x = 20
+		y = 16
+
+	}
+	focus = {
+		id = GER_Order_of_Christ
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GER_Holy_military_Temples
+		}
+		x = 20
+		y = 17
+
+	}
+	focus = {
+		id = GER_Holy_War_Technologies
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GER_Order_of_Christ
+		}
+		x = 20
+		y = 18
+
+	}
+	focus = {
+		id = GER_Democracy
+		icon = GFX_goal_unknown
+		cost = 1
+		prerequisite = {
+			focus = GER_Elections
+		}
+		mutually_exclusive = {
+			focus = GER_Hindenburg
+		}
+		x = 25
+		y = 6
+
+	}
+	focus = {
+		id = GER_Liberalization
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GER_Democracy
+		}
+		x = 23
+		y = 7
+
+	}
+	focus = {
+		id = GER_New_economy
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GER_Liberalization
+		}
+		x = 23
+		y = 8
+
+	}
+	focus = {
+		id = GER_Private_property
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GER_New_economy
+		}
+		x = 23
+		y = 9
+
+	}
+	focus = {
+		id = GER_Free_media
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GER_Private_property
+		}
+		x = 23
+		y = 10
+
+	}
+	focus = {
+		id = GER_Constitution
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GER_Democracy
+		}
+		x = 25
+		y = 7
+
+	}
+	focus = {
+		id = GER_Laws_on_protection_of_Democracy
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_Constitution
+		}
+		x = 25
+		y = 8
+
+	}
+	focus = {
+		id = GER_New_capital
+		icon = GFX_goal_unknown
+		cost = 7
+		prerequisite = {
+			focus = GER_Laws_on_protection_of_Democracy
+		}
+		x = 25
+		y = 9
+
+	}
+	focus = {
+		id = GER_women's_rights
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_New_capital
+		}
+		x = 25
+		y = 10
+
+	}
+	focus = {
+		id = GER_Prohibition_of_reactionism
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_Free_media
+		}
+		prerequisite = {
+			focus = GER_women's_rights
+		}
+		x = 24
+		y = 11
+
+	}
+	focus = {
+		id = GER_New_laws
+		icon = GFX_goal_unknown
+		cost = 1
+		prerequisite = {
+			focus = GER_The_Knights_have_captured
+		}
+		x = 26
+		y = 14
+
+	}
+	focus = {
+		id = GER_Strengthen_religious_laws
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GER_New_laws
+		}
+		x = 26
+		y = 15
+
+	}
+	focus = {
+		id = GER_Racial_laws
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GER_Strengthen_religious_laws
+		}
+		x = 26
+		y = 16
+
+	}
+	focus = {
+		id = GER_The_Law_on_the_Holy_Land
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GER_Racial_laws
+		}
+		x = 26
+		y = 17
+
+	}
+	focus = {
+		id = GER_Party_laws
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GER_The_Law_on_the_Holy_Land
+		}
+		x = 26
+		y = 18
+
+	}
+	focus = {
+		id = GER_Long_evening
+		icon = GFX_goal_unknown
+		cost = 1
+		prerequisite = {
+			focus = GER_Prohibition_of_reactionism
+		}
+		x = 24
+		y = 12
+
+	}
+	focus = {
+		id = GER_New_crisis
+		icon = GFX_goal_unknown
+		cost = 1
+		prerequisite = {
+			focus = GER_Long_evening
+		}
+		x = 28
+		y = 13
+
+	}
+	focus = {
+		id = GER_Death_of_Liberalism
+		icon = GFX_goal_unknown
+		cost = 1
+		prerequisite = {
+			focus = GER_New_crisis
+		}
+		x = 28
+		y = 14
+
+	}
+	focus = {
+		id = GER_New_president
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_Death_of_Liberalism
+		}
+		x = 28
+		y = 15
+
+	}
+	focus = {
+		id = GER_Technocracy
+		icon = GFX_goal_unknown
+		cost = 1
+		prerequisite = {
+			focus = GER_New_president
+		}
+		mutually_exclusive = {
+			focus = GER_Federalists
+		}
+		x = 34
+		y = 16
+
+	}
+	focus = {
+		id = GER_New_state
+		icon = GFX_goal_unknown
+		cost = 1
+		prerequisite = {
+			focus = GER_Technocracy
+		}
+		x = 34
+		y = 17
+
+	}
+	focus = {
+		id = GER_Bloody_progress
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_New_state
+		}
+		x = 34
+		y = 18
+
+	}
+	focus = {
+		id = GER_Atomic_tecnologies
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GER_Bloody_progress
+		}
+		x = 32
+		y = 19
+
+	}
+	focus = {
+		id = GER_Industirialism
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GER_Bloody_progress
+		}
+		x = 34
+		y = 19
+
+	}
+	focus = {
+		id = GER_Electroair
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GER_Industirialism
+		}
+		x = 34
+		y = 20
+
+	}
+	focus = {
+		id = GER_Automines
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GER_Electroair
+		}
+		x = 34
+		y = 21
+
+	}
+	focus = {
+		id = GER_Army
+		icon = GFX_goal_unknown
+		cost = 1
+		prerequisite = {
+			focus = GER_Bloody_progress
+		}
+		x = 36
+		y = 19
+
+	}
+	focus = {
+		id = GER_Automation_,military
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GER_Army
+		}
+		x = 36
+		y = 20
+
+	}
+	focus = {
+		id = GER_Federalists
+		icon = GFX_goal_unknown
+		cost = 1
+		prerequisite = {
+			focus = GER_New_president
+		}
+		mutually_exclusive = {
+			focus = GER_Technocracy
+		}
+		x = 44
+		y = 16
+
+	}
+	focus = {
+		id = GER_For_democracy
+		icon = GFX_goal_unknown
+		cost = 1
+		prerequisite = {
+			focus = GER_Federalists
+		}
+		x = 44
+		y = 17
+
+	}
+	focus = {
+		id = GER_Democracy_monarchism
+		icon = GFX_goal_unknown
+		cost = 3
+		prerequisite = {
+			focus = GER_For_democracy
+		}
+		x = 43
+		y = 18
+
+	}
+	focus = {
+		id = GER_New_kaiser
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_For_democracy
+		}
+		x = 45
+		y = 18
+
+	}
+	focus = {
+		id = GER_Imperial_federation
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_Democracy_monarchism
+		}
+		prerequisite = {
+			focus = GER_New_kaiser
+		}
+		x = 44
+		y = 19
+
+	}
+	focus = {
+		id = GER_Social_reforms
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_Imperial_federation
+		}
+		x = 42
+		y = 20
+
+	}
+	focus = {
+		id = GER_Army_reforms
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_Imperial_federation
+		}
+		x = 44
+		y = 20
+
+	}
+	focus = {
+		id = GER_Army_congresess
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_Army_reforms
+		}
+		x = 44
+		y = 21
+
+	}
+	focus = {
+		id = GER_New_generals
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_Army_congresess
+		}
+		x = 44
+		y = 22
+
+	}
+	focus = {
+		id = GER_Army_of_democracy
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_New_generals
+		}
+		x = 44
+		y = 23
+
+	}
+	focus = {
+		id = GER_Goths_Coup
+		icon = GFX_goal_unknown
+		cost = 1
+		prerequisite = {
+			focus = GER_Goths_In_Power
+		}
+		mutually_exclusive = {
+			focus = GER_preservation_of_Himmler's_power
+		}
+		x = 28
+		y = 29
+
+	}
+	focus = {
+		id = GER_preservation_of_Himmler's_power
+		icon = GFX_goal_unknown
+		cost = 1
+		prerequisite = {
+			focus = GER_Goths_In_Power
+		}
+		mutually_exclusive = {
+			focus = GER_Goths_Coup
+		}
+		x = 30
+		y = 29
+
+	}
+	focus = {
+		id = GER_Legions
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_Holy_tanks
+		}
+		x = 6
+		y = 20
+
+	}
+	focus = {
+		id = GER_Rhine_Wall
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GER_Goths_Coup
+			focus = GER_preservation_of_Himmler's_power
+		}
+		x = 29
+		y = 30
+
+	}
+	focus = {
+		id = GER_Find_allies
+		icon = GFX_goal_unknown
+		cost = 3
+		prerequisite = {
+			focus = GER_Rhine_Wall
+		}
+		x = 29
+		y = 31
+
+	}
+	focus = {
+		id = GER_Disarm_Entente
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = GER_Find_allies
+		}
+		x = 29
+		y = 32
+
+	}
+	focus = {
+		id = GER_Imperor_Guard
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_Absolute_monarchy
+		}
+		x = 7
+		y = 7
+
+	}
+	focus = {
+		id = GER_Imperor_police_of_Berlin
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GER_Imperor_Guard
+		}
+		x = 7
+		y = 8
+
+	}
+	focus = {
+		id = GER_Protect_the_Emperor
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GER_Imperor_police_of_Berlin
+		}
+		x = 7
+		y = 9
+
+	}
+	focus = {
+		id = GER_Comprimiss_of_riot
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GER_Protect_the_Emperor
+		}
+		x = 7
+		y = 10
+
+	}
+	focus = {
+		id = GER_Legalize_slavery
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GER_Imperial_laws
+		}
+		x = 9
+		y = 8
+
+	}
+	focus = {
+		id = GER_The_Law_on_Parties
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GER_Legalize_slavery
+		}
+		x = 9
+		y = 9
+
+	}
+	focus = {
+		id = GER_Subjugate_the_Church
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GER_The_Law_on_Parties
+		}
+		x = 9
+		y = 10
+
+	}
+	focus = {
+		id = GER_veto_on_trade_unions
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GER_Cultural_impersonation_imperator
+		}
+		x = 5
+		y = 8
+
+	}
+	focus = {
+		id = GER_Cesarism
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GER_Comprimiss_of_riot
+		}
+		prerequisite = {
+			focus = GER_Subjugate_the_Church
+		}
+		prerequisite = {
+			focus = GER_veto_on_trade_unions
+		}
+		x = 7
+		y = 11
+
+	}
+	focus = {
+		id = GER_Attack_italy
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_Cesarism
+		}
+		x = 7
+		y = 12
+
+	}
+	focus = {
+		id = GER_Colonial_crisis
+		icon = GFX_goal_unknown
+		cost = 1
+		prerequisite = {
+			focus = GER_Attack_italy
+		}
+		x = 7
+		y = 13
+
+	}
+	focus = {
+		id = GER_Death_of_William_2
+		icon = GFX_goal_unknown
+		cost = 1
+		prerequisite = {
+			focus = GER_Colonial_crisis
+		}
+		x = 7
+		y = 14
+
+	}
+	focus = {
+		id = GER_Coosing_an_heir
+		icon = GFX_goal_unknown
+		cost = 1
+		prerequisite = {
+			focus = GER_Death_of_William_2
+		}
+		x = 7
+		y = 15
+
+	}
+	focus = {
+		id = GER_For_the_empire
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_Coosing_an_heir
+		}
+		x = 7
+		y = 16
+
+	}
+	focus = {
+		id = GER_The_cult_of_personmaly
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GER_For_the_empire
+		}
+		x = 11
+		y = 17
+
+	}
+	focus = {
+		id = GER_Imperial_propoganda
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GER_The_cult_of_personmaly
+		}
+		x = 10
+		y = 18
+
+	}
+	focus = {
+		id = GER_To_crush_pacifism
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_The_cult_of_personmaly
+		}
+		x = 12
+		y = 18
+
+	}
+	focus = {
+		id = GER_Banning_all_parties
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_Imperial_propoganda
+		}
+		prerequisite = {
+			focus = GER_To_crush_pacifism
+		}
+		x = 11
+		y = 19
+
+	}
+	focus = {
+		id = GER_The_aristocrats_in_power
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_Banning_all_parties
+		}
+		x = 11
+		y = 20
+
+	}
+	focus = {
+		id = GER_Canonize_a_Kaiser
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GER_The_aristocrats_in_power
+		}
+		x = 11
+		y = 21
+
+	}
+	focus = {
+		id = GER_March_of_the_Empire
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GER_Canonize_a_Kaiser
+		}
+		x = 11
+		y = 22
+
+	}
+	focus = {
+		id = GER_Church_on_the_rise
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GER_For_the_empire
+		}
+		x = 7
+		y = 17
+
+	}
+	focus = {
+		id = GER_religious_army
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_Church_on_the_rise
+		}
+		x = 6
+		y = 18
+
+	}
+	focus = {
+		id = GER_Divine_horses
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GER_Church_on_the_rise
+		}
+		x = 8
+		y = 18
+
+	}
+	focus = {
+		id = GER_Pitchfork_in_hand
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_Divine_horses
+		}
+		x = 8
+		y = 19
+
+	}
+	focus = {
+		id = GER_Holy_Lands
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GER_Pitchfork_in_hand
+		}
+		x = 8
+		y = 20
+
+	}
+	focus = {
+		id = GER_Holy_war_for_Switzerland
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GER_Holy_Lands
+		}
+		prerequisite = {
+			focus = GER_Legions
+		}
+		x = 7
+		y = 21
+
+	}
+	focus = {
+		id = GER_greatness_of_the_church
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GER_Holy_war_for_Switzerland
+		}
+		x = 7
+		y = 22
+
+	}
+	focus = {
+		id = GER_The_Imperial_Economy
+		icon = GFX_goal_unknown
+		cost = 3
+		prerequisite = {
+			focus = GER_For_the_empire
+		}
+		x = 15
+		y = 17
+
+	}
+	focus = {
+		id = GER_Baltic_sea_monopoly
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GER_The_Imperial_Economy
+		}
+		x = 15
+		y = 18
+
+	}
+	focus = {
+		id = GER_Merchant's_icense
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_Baltic_sea_monopoly
+		}
+		x = 15
+		y = 19
+
+	}
+	focus = {
+		id = GER_Pirates_of_Baltic_sea
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_Merchant's_icense
+		}
+		x = 15
+		y = 20
+
+	}
+	focus = {
+		id = GER_Profit_from_the_sea
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GER_Pirates_of_Baltic_sea
+		}
+		x = 15
+		y = 21
+
+	}
+	focus = {
+		id = GER_to_attack_Yugoslavia
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GER_Belrin_Empire
+		}
+		x = 9
+		y = 24
+
+	}
+	focus = {
+		id = GER_German_balkan
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GER_to_attack_Yugoslavia
+		}
+		x = 9
+		y = 25
+
+	}
+	focus = {
+		id = GER_Greece_operation
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GER_German_balkan
+		}
+		x = 9
+		y = 26
+
+	}
+	focus = {
+		id = GER_The_Turkish_War
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GER_Greece_operation
+		}
+		x = 9
+		y = 27
+
+	}
+	focus = {
+		id = GER_Second_world_war
+		icon = GFX_goal_unknown
+		cost = 12
+		prerequisite = {
+			focus = GER_The_Turkish_War
+		}
+		prerequisite = {
+			focus = GER_Road_to_Africa
+		}
+		x = 12
+		y = 28
+
+	}
+	focus = {
+		id = GER_Return_the_colonies
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GER_Belrin_Empire
+		}
+		x = 11
+		y = 24
+
+	}
+	focus = {
+		id = GER_Belrin_Empire
+		icon = GFX_goal_unknown
+		cost = 1
+		prerequisite = {
+			focus = GER_March_of_the_Empire
+		}
+		prerequisite = {
+			focus = GER_greatness_of_the_church
+		}
+		prerequisite = {
+			focus = GER_Profit_from_the_sea
+		}
+		x = 11
+		y = 23
+
+	}
+	focus = {
+		id = GER_camps_for_Islamists
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GER_Terror_of_the_Kings
+		}
+		x = 18
+		y = 16
+
+	}
+	focus = {
+		id = GER_Inquisition
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_camps_for_Islamists
+		}
+		x = 18
+		y = 17
+
+	}
+	focus = {
+		id = GER_Scientists_at_the_stake
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_Inquisition
+		}
+		x = 18
+		y = 18
+
+	}
+	focus = {
+		id = GER_Burn_the_research_heretics
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_Scientists_at_the_stake
+			focus = GER_Holy_War_Technologies
+		}
+		x = 19
+		y = 19
+
+	}
+	focus = {
+		id = GER_death_of_Hindenburg
+		icon = GFX_goal_unknown
+		cost = 1
+		prerequisite = {
+			focus = GER_Burn_the_research_heretics
+		}
+		prerequisite = {
+			focus = GER_Party_laws
+		}
+		x = 23
+		y = 21
+
+	}
+	focus = {
+		id = GER_The_Time_of_Troubles
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = GER_death_of_Hindenburg
+		}
+		x = 23
+		y = 22
+
+	}
+	focus = {
+		id = GER_Church
+		icon = GFX_goal_unknown
+		cost = 1
+		prerequisite = {
+			focus = GER_The_Time_of_Troubles
+		}
+		mutually_exclusive = {
+			focus = GER_Hitler
+		}
+		x = 17
+		y = 23
+
+	}
+	focus = {
+		id = GER_Hitler
+		icon = GFX_goal_unknown
+		cost = 1
+		prerequisite = {
+			focus = GER_The_Time_of_Troubles
+		}
+		mutually_exclusive = {
+			focus = GER_Church
+			focus = GER_Himmler
+		}
+		x = 23
+		y = 23
+
+	}
+	focus = {
+		id = GER_Himmler
+		icon = GFX_goal_unknown
+		cost = 1
+		prerequisite = {
+			focus = GER_The_Time_of_Troubles
+		}
+		mutually_exclusive = {
+			focus = GER_Hitler
+		}
+		x = 29
+		y = 23
+
+	}
+	focus = {
+		id = GER_Order_of_the_State
+		icon = GFX_goal_unknown
+		cost = 3
+		prerequisite = {
+			focus = GER_Church
+		}
+		x = 17
+		y = 24
+
+	}
+	focus = {
+		id = GER_Mid-centurization
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_Order_of_the_State
+		}
+		x = 16
+		y = 25
+
+	}
+	focus = {
+		id = GER_Electricity_is_a_sin
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_Mid-centurization
+		}
+		x = 16
+		y = 26
+
+	}
+	focus = {
+		id = GER_Horses_instead_of_cars
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GER_Electricity_is_a_sin
+		}
+		x = 16
+		y = 27
+
+	}
+	focus = {
+		id = GER_level_the_city_with_village
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GER_Horses_instead_of_cars
+		}
+		x = 16
+		y = 28
+
+	}
+	focus = {
+		id = GER_The_New_Middle_Ages
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GER_level_the_city_with_village
+		}
+		x = 16
+		y = 29
+
+	}
+	focus = {
+		id = GER_To_return_Catholicism_to_Italy
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_Order_of_the_State
+		}
+		x = 18
+		y = 25
+
+	}
+	focus = {
+		id = GER_Alliance_with_Scandinavia
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_To_return_Catholicism_to_Italy
+		}
+		prerequisite = {
+			focus = GER_Mid-centurization
+		}
+		x = 18
+		y = 26
+
+	}
+	focus = {
+		id = GER_Battle_of_the_Neva
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GER_Electricity_is_a_sin
+		}
+		prerequisite = {
+			focus = GER_Alliance_with_Scandinavia
+		}
+		x = 18
+		y = 27
+
+	}
+	focus = {
+		id = GER_Greatest_holy_war
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GER_Horses_instead_of_cars
+		}
+		prerequisite = {
+			focus = GER_Battle_of_the_Neva
+		}
+		x = 18
+		y = 28
+
+	}
+	focus = {
+		id = GER_Greatest_holy_teutonic_state
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GER_The_New_Middle_Ages
+		}
+		prerequisite = {
+			focus = GER_Greatest_holy_war
+		}
+		x = 17
+		y = 30
+
+	}
+	focus = {
+		id = GER_3_Reich
+		icon = GFX_goal_unknown
+		cost = 3
+		prerequisite = {
+			focus = GER_Hitler
+		}
+		x = 23
+		y = 24
+
+	}
+	focus = {
+		id = GER_Executions_of_Communists
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_3_Reich
+		}
+		x = 22
+		y = 25
+
+	}
+	focus = {
+		id = GER_The_hunt_for_Jews
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_Executions_of_Communists
+		}
+		x = 22
+		y = 26
+
+	}
+	focus = {
+		id = GER_Axis
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_3_Reich
+		}
+		x = 24
+		y = 25
+
+	}
+	focus = {
+		id = GER_Vermacht
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GER_Axis
+		}
+		x = 24
+		y = 26
+
+	}
+	focus = {
+		id = GER_Fuhrer
+		icon = GFX_goal_unknown
+		cost = 3
+		prerequisite = {
+			focus = GER_The_hunt_for_Jews
+		}
+		prerequisite = {
+			focus = GER_Vermacht
+		}
+		x = 23
+		y = 27
+
+	}
+	focus = {
+		id = GER_Glory_of_Hyperboreya
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = GER_Fuhrer
+		}
+		x = 23
+		y = 28
+
+	}
+	focus = {
+		id = GER_Gestapo
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GER_Glory_of_Hyperboreya
+		}
+		x = 23
+		y = 29
+
+	}
+	focus = {
+		id = GER_Pangermanism
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_Gestapo
+		}
+		x = 23
+		y = 30
+
+	}
+	focus = {
+		id = GER_Attack_Russia
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GER_Pangermanism
+		}
+		x = 23
+		y = 31
+
+	}
+	focus = {
+		id = GER_Attack_Entente
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GER_Attack_Russia
+		}
+		x = 23
+		y = 32
+
+	}
+	focus = {
+		id = GER_Annex_Scandinavia
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GER_Attack_Entente
+		}
+		x = 23
+		y = 33
+
+	}
+	focus = {
+		id = GER_Hyperboreya
+		icon = GFX_goal_unknown
+		cost = 3
+		prerequisite = {
+			focus = GER_Annex_Scandinavia
+		}
+		x = 23
+		y = 34
+
+	}
+	focus = {
+		id = GER_Peaceful_esotericism
+		icon = GFX_goal_unknown
+		cost = 1
+		prerequisite = {
+			focus = GER_Himmler
+		}
+		x = 29
+		y = 24
+
+	}
+	focus = {
+		id = GER_Sacrifices_with_help_of-Jews
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_Peaceful_esotericism
+		}
+		x = 27
+		y = 25
+
+	}
+	focus = {
+		id = GER_Dancing_to_the_Gods
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_Sacrifices_with_help_of-Jews
+		}
+		x = 27
+		y = 26
+
+	}
+	focus = {
+		id = GER_The_restoration_is_Goths
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_Dancing_to_the_Gods
+		}
+		x = 27
+		y = 27
+
+	}
+	focus = {
+		id = GER_Himmler's_dictatorship
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_Peaceful_esotericism
+		}
+		x = 29
+		y = 25
+
+	}
+	focus = {
+		id = GER_Propoganda_chauvinism
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GER_Himmler's_dictatorship
+		}
+		x = 29
+		y = 26
+
+	}
+	focus = {
+		id = GER_History-propaganda_weapon
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_Propoganda_chauvinism
+		}
+		x = 29
+		y = 27
+
+	}
+	focus = {
+		id = GER_Esoteric_army
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_Peaceful_esotericism
+		}
+		x = 31
+		y = 25
+
+	}
+	focus = {
+		id = GER_SS
+		icon = GFX_goal_unknown
+		cost = 7
+		prerequisite = {
+			focus = GER_Esoteric_army
+		}
+		x = 31
+		y = 26
+
+	}
+	focus = {
+		id = GER_Goths_In_Power
+		icon = GFX_goal_unknown
+		cost = 1
+		prerequisite = {
+			focus = GER_The_restoration_is_Goths
+		}
+		prerequisite = {
+			focus = GER_History-propaganda_weapon
+		}
+		prerequisite = {
+			focus = GER_SS
+		}
+		x = 29
+		y = 28
+
+	}
+	focus = {
+		id = GER_Buy_Lithuania
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = GER_Return_the_colonies
+		}
+		x = 11
+		y = 25
+
+	}
+	focus = {
+		id = GER_Switzerland
+		icon = GFX_goal_unknown
+		cost = 6
+		prerequisite = {
+			focus = GER_Buy_Lithuania
+		}
+		x = 11
+		y = 26
+
+	}
+	focus = {
+		id = GER_Benilux
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_Switzerland
+		}
+		x = 11
+		y = 27
+
+	}
+	focus = {
+		id = GER_Denmark_and_Sweden
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_Belrin_Empire
+		}
+		x = 13
+		y = 24
+
+	}
+	focus = {
+		id = GER_Roman_German_empire
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = GER_Second_world_war
+		}
+		prerequisite = {
+			focus = GER_All_roads_to_Berlin
+		}
+		x = 11
+		y = 29
+
+	}
+	focus = {
+		id = GER_All_roads_to_Berlin
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_The_Turkish_War
+		}
+		prerequisite = {
+			focus = GER_Benilux
+		}
+		x = 10
+		y = 28
+
+	}
+	focus = {
+		id = GER_Battle_for_Moscow
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GER_Denmark_and_Sweden
+		}
+		x = 13
+		y = 25
+
+	}
+	focus = {
+		id = GER_Spain
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_Battle_for_Moscow
+		}
+		x = 13
+		y = 26
+
+	}
+	focus = {
+		id = GER_Road_to_Africa
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_Spain
+		}
+		x = 13
+		y = 27
+
+	}
+	focus = {
+		id = GER_Holy_tanks
+		icon = GFX_goal_unknown
+		cost = 8
+		prerequisite = {
+			focus = GER_religious_army
+		}
+		x = 6
+		y = 19
+
+	}
+	focus = {
+		id = GER_New_ordens
+		icon = GFX_goal_unknown
+		cost = 6
+		prerequisite = {
+			focus = GER_Greatest_holy_teutonic_state
+		}
+		x = 17
+		y = 31
+
+	}
+	focus = {
+		id = GER_Balkan_ordens
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_New_ordens
+		}
+		x = 17
+		y = 32
+
+	}
+	focus = {
+		id = GER_Spain_orden
+		icon = GFX_goal_unknown
+		cost = 6
+		prerequisite = {
+			focus = GER_Balkan_ordens
+		}
+		x = 17
+		y = 33
+
+	}
+	focus = {
+		id = GER_Byzantium_orden
+		icon = GFX_goal_unknown
+		cost = 6
+		prerequisite = {
+			focus = GER_Spain_orden
+		}
+		x = 17
+		y = 34
+
+	}
+	focus = {
+		id = GER_Palestina
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_Byzantium_orden
+		}
+		x = 17
+		y = 35
+
+	}
+	focus = {
+		id = GER_Africa
+		icon = GFX_goal_unknown
+		cost = 6
+		prerequisite = {
+			focus = GER_Palestina
+		}
+		x = 17
+		y = 36
+
+	}
+	focus = {
+		id = GER_Atomic_factories
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GER_Atomic_tecnologies
+		}
+		x = 32
+		y = 20
+
+	}
+	focus = {
+		id = GER_Atomic_tanks
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GER_Atomic_factories
+		}
+		x = 32
+		y = 21
+
+	}
+	focus = {
+		id = GER_Atomic_state
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_Atomic_tanks
+		}
+		prerequisite = {
+			focus = GER_Automines
+		}
+		prerequisite = {
+			focus = GER_Automation_,military
+		}
+		x = 34
+		y = 22
+
+	}
+	focus = {
+		id = GER_Atomic_europe
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_Atomic_state
+		}
+		x = 34
+		y = 23
+
+	}
+	focus = {
+		id = GER_Russia_operation
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_Atomic_europe
+		}
+		x = 34
+		y = 24
+
+	}
+	focus = {
+		id = GER_Italian_war
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_Russia_operation
+		}
+		x = 33
+		y = 25
+
+	}
+	focus = {
+		id = GER_Balkan_war
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_Russia_operation
+		}
+		x = 35
+		y = 25
+
+	}
+	focus = {
+		id = GER_Entente
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_Italian_war
+		}
+		prerequisite = {
+			focus = GER_Balkan_war
+		}
+		x = 34
+		y = 26
+
+	}
+	focus = {
+		id = GER_Education
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_Social_reforms
+		}
+		x = 42
+		y = 21
+
+	}
+	focus = {
+		id = GER_Medicine
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_Education
+		}
+		x = 42
+		y = 22
+
+	}
+	focus = {
+		id = GER_constitution
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_Medicine
+		}
+		x = 42
+		y = 23
+
+	}
+	focus = {
+		id = GER_European_union
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_constitution
+		}
+		prerequisite = {
+			focus = GER_Army_of_democracy
+		}
+		x = 43
+		y = 24
+
+	}
+}

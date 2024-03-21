@@ -1,0 +1,32 @@
+﻿capital = 777
+
+	oob = "WST_1933"
+
+	set_research_slots = 2
+	
+recruit_character = MAF_Paul_Emil_von
+
+set_technology = {
+}
+	
+set_politics = {
+	ruling_party = authoritarian_democracy
+	last_election = "1929.12.12"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	totalism = 5
+	syndicalism = 4
+	revolutionary_socialism	= 3
+	social_democracy = 3
+	social_liberal = 6
+	conservatism = 4
+	national_conservatism = 6
+	authoritarian_democracy = 48
+	despotism = 16
+	national_syndicalism = 1
+	revolutionary_nationalism = 4
+	anarchism = 0
+}

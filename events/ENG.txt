@@ -1,0 +1,470 @@
+add_namespace = england
+
+country_event = {
+	id = england.1
+	title = england.1.t
+	desc = england.1.d
+	picture = GFX_report_event_win_the_hearts_of_the_recalcitrant
+
+	is_triggered_only = yes
+	
+    mean_time_to_happen = { days = 14 }
+
+	option = {  
+        name = england.1.a
+		WLS = {
+			add_autonomy_score = {
+					value = -100
+					localization = EXAMPLE
+				}
+		}
+		SCO = {
+			add_autonomy_score = {
+					value = -100
+					localization = EXAMPLE
+				}
+		}
+		ENG = {
+			add_stability = -0.01
+		}
+	}
+	option = {
+        name = england.1.b
+		WLS = {
+			add_autonomy_score = {
+					value = -250
+					localization = EXAMPLE
+				}
+		}
+		SCO = {
+			add_autonomy_score = {
+					value = -250
+					localization = EXAMPLE
+				}
+		}
+		ENG = {
+			add_stability = -0.03
+		}
+	}
+	option = {
+        name = england.1.c
+		WLS = {
+			add_autonomy_score = {
+					value = -500
+					localization = EXAMPLE
+				}
+		}
+		SCO = {
+			add_autonomy_score = {
+					value = -500
+					localization = EXAMPLE
+				}
+		}
+		ENG = {
+			add_stability = -0.07
+		}
+	}
+}
+country_event = {
+	id = england.2
+	title = england.2.t
+	desc = england.2.d
+	picture = GFX_report_event_ireland_revolution
+
+	is_triggered_only = yes
+
+    mean_time_to_happen = { days = 14 }
+    option = {
+        name = england.2.a
+		ai_chance = {
+			base = 7
+		}
+        ENG = {
+            set_autonomy = {
+                target = IRE
+                autonomous_state = autonomy_integrated_puppet
+            }
+        }
+
+    }
+    option = {
+        name = england.2.b
+		ai_chance = {
+			base = 3
+		}
+		ENG = {
+			create_wargoal = {
+				type = annex_everything
+				target = IRE
+				expire = 0
+			}
+		}
+    }
+}
+country_event = {
+	id = england.3
+	title = england.3.t
+	desc = england.3.d
+	picture = GFX_report_event_chief_visit_to_Wales
+
+	is_triggered_only = yes
+	
+    mean_time_to_happen = { days = 14 }
+    option = {
+        name = england.3.a
+		WLS = {
+			add_autonomy_score = {
+					value = -500
+					localization = EXAMPLE
+				}
+		}
+    }
+}
+
+country_event = {
+	id = england.4
+	title = england.4.t
+	desc = england.4.d
+	picture = GFX_report_event_victory_is_our
+
+	is_triggered_only = yes
+	
+    mean_time_to_happen = { days = 14 }
+    option = {
+        name = england.4.a
+		ENG = {
+			add_stability = 0.03
+			add_war_support = -0.03
+		}
+	}
+}
+
+country_event = {
+	id = england.5
+	title = england.5.t
+	desc = england.5.d
+	picture = GFX_report_event_reassure_the_local_population
+
+	is_triggered_only = yes
+	
+    mean_time_to_happen = { days = 14 }
+    option = {
+        name = england.5.a
+		ENG = {
+			add_stability = 0.03
+		}
+		SCO = {
+			add_popularity = {
+				ideology = national_syndicalism
+				popularity = 0.05
+			}
+			add_autonomy_score = {
+					value = -500
+					localization = EXAMPLE
+				}
+		}
+	}
+}
+
+country_event = {
+	id = england.6
+	title = england.6.t
+	desc = england.6.d
+	picture = GFX_report_event_common_goals_and_views
+
+	is_triggered_only = yes
+	
+    mean_time_to_happen = { days = 14 }
+    option = {
+        name = england.6.a
+		ENG = {
+			add_stability = 0.03
+		}
+		WLS = {
+			add_popularity = {
+				ideology = national_syndicalism
+				popularity = 0.05
+			}
+			add_autonomy_score = {
+					value = -500
+					localization = EXAMPLE
+				}
+		}
+	}
+}
+
+country_event = {
+	id = england.7
+	title = england.7.t
+	desc = england.7.d
+	picture = GFX_report_event_our_brave_leader
+
+	is_triggered_only = yes
+	
+    mean_time_to_happen = { days = 14 }
+    option = {
+        name = england.7.a
+	}
+}
+
+country_event = {
+	id = england.8
+	title = england.8.t
+	desc = england.8.d
+	picture = GFX_report_event_get_rid_of_the_opposition
+
+	is_triggered_only = yes
+	
+    mean_time_to_happen = { days = 14 }
+    option = {
+        name = england.8.a
+		SCO, WLS = {
+			add_autonomy_score = {
+				value = -500
+				localization = EXAMPLE
+			}
+		}
+	}
+}
+
+country_event = {
+	id = england.9
+	title = england.9.t
+	desc = england.9.d
+	picture = GFX_report_event_people_believe_in_their_leader
+
+	is_triggered_only = yes
+	
+    mean_time_to_happen = { days = 14 }
+    option = {
+        name = england.9.a
+		hidden_effect = {
+			state_event = {
+				id = england.10
+				days = 7
+			}
+		}
+		add_ideas = unity_of_the_nation
+	}
+}
+
+country_event = {
+	id = england.10
+	title = england.10.t
+	desc = england.10.d
+	picture = GFX_report_event_people_believe_in_their_leader
+
+	is_triggered_only = yes
+	
+    mean_time_to_happen = { days = 14 }
+    option = {
+        name = england.10.a
+	}
+}
+
+country_event = {
+	id = england.11
+	title = england.11.t
+	desc = england.11.d
+	picture = GFX_report_event_leaflets_in_Ireland
+
+	is_triggered_only = yes
+	
+    mean_time_to_happen = { days = 14 }
+    option = {
+        name = england.11.a
+		IRE = {
+				add_popularity = {
+				ideology = national_syndicalism 
+				popularity = 0.05
+				}
+		}
+	}
+}
+
+country_event = {
+	id = england.12
+	title = england.12.t
+	desc = england.12.d
+	picture = GFX_report_event_step_away_from_justice
+
+	is_triggered_only = yes
+	
+    mean_time_to_happen = { days = 14 }
+    option = {
+        name = england.12.a
+		ENG = {
+			add_politic_power = 100
+			add_stability = 0.1
+		}
+	}
+}
+
+country_event = {
+	id = england.13
+	title = england.13.t
+	desc = england.13.d
+	picture = GFX_report_event_new_standard_of_white_race
+
+	is_triggered_only = yes
+	
+    mean_time_to_happen = { days = 14 }
+    option = {
+        name = england.13.a
+		ENG = {
+			add_popularity = {
+				ideology = national_syndicalism
+				popularity = 0.1
+			}
+			add_ideas = ideas_new_standart
+		}
+	}
+}
+
+country_event = {
+	id = england.14
+	title = england.14.t
+	desc = england.14.d
+	picture = GFX_report_event_dual_power_guarantees_stability
+
+	is_triggered_only = yes
+	
+    mean_time_to_happen = { days = 14 }
+    option = {
+        name = england.14.a
+			add_dynamic_modifier = { modifier = ideas_king_eduard }
+			add_to_variable = { ideas_eng_king_add_popularity = 0.02 }
+			
+	}
+}
+
+country_event = {
+	id = england.15
+	title = england.15.t
+	desc = england.15.d
+	picture = GFX_report_event_calmness_at_the_cost_of_an_idea
+
+	is_triggered_only = yes
+	
+    mean_time_to_happen = { days = 14 }
+    option = {
+        name = england.15.a
+
+	}
+}
+
+country_event = {
+	id = england.16
+	title = england.16.t
+	desc = england.16.d
+	picture = GFX_report_event_people_believe_in_their_leader
+
+	is_triggered_only = yes
+	
+    mean_time_to_happen = { days = 14 }
+    option = {
+        name = england.16.a
+		SCO = {
+			add_autonomy_score = {
+					value = -500
+					localization = EXAMPLE
+				}
+		}
+	}
+}
+
+country_event = {
+	id = england.17
+	title = england.17.t
+	desc = england.17.d
+	picture = GFX_report_event_ultimatum_to_Iceland
+	is_triggered_only = yes
+	
+    mean_time_to_happen = { days = 14 }
+    option = {
+        name = england.17.a
+        ENG = {
+            set_autonomy = {
+                target = ICE
+                autonomous_state = autonomy_integrated_puppet
+            }
+        }
+	}
+}
+country_event = {
+	id = england.18
+	title = england.18.t
+	desc = england.18.d
+	picture = GFX_report_event_ultimatum_to_Iceland
+	is_triggered_only = yes
+	
+    mean_time_to_happen = { days = 14 }
+    option = {
+        name = england.18.a
+	}
+}
+
+country_event = {
+	id = england.19
+	title = england.19.t
+	desc = england.19.d
+	is_triggered_only = yes
+	
+    mean_time_to_happen = { days = 14 }
+    option = {
+        name = england.19.a
+	}
+}
+
+country_event = {
+	id = england.20
+	title = england.20.t
+	desc = england.20.d
+	is_triggered_only = yes
+	
+    mean_time_to_happen = { days = 14 }
+    option = {
+        name = england.20.a
+		complete_national_focus = ENG_refuse
+		ENG = {
+			add_stability = -0.01
+		}
+	}
+    option = {
+        name = england.20.b
+		complete_national_focus = ENG_will_agree
+		ENG = {
+			add_stability = 0.01
+		}
+	}
+}
+
+country_event = {
+	id = england.21
+	title = england.21.t
+	desc = england.21.d
+	picture = GFX_report_event_we_are_close_to_ideal
+	is_triggered_only = yes
+	
+    mean_time_to_happen = { days = 14 }
+    option = {
+        name = england.21.a
+		ENG = {
+			add_war_support = 0.01
+		}
+	}
+}
+
+country_event = {
+	id = england.1488
+	title = england.1488.t
+	desc = england.1488.d
+	picture = GFX_report_event_people_believe_in_their_leader
+	is_triggered_only = yes
+	
+    mean_time_to_happen = { days = 14 }
+    option = {
+        name = england.1488.a
+	}
+}
+

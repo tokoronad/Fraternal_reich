@@ -1,0 +1,37 @@
+
+ideas_ENG_dissident_is_a_traitor = {
+    enable = { always = yes }
+
+    icon = GFX_ENG_dissident_is_a_traitor
+
+    stability_factor = ideas_eng_diat_stability_factor
+    production_speed_buildings_factor = ideas_eng_diat_production_speed_buildings_factor
+    recruitable_population_factor = ideas_eng_diat_recruitable_population_factor
+    production_factory_efficiency_gain_factor = ideas_eng_diat_production_factory_efficiency_gain_factor
+
+}
+ideas_ENG_loyality_to_leader = {
+    enable = { always = yes }
+
+    icon = GFX_ENG_loyality_to_leader
+
+    stability_factor = ideas_eng_ltl_stability_factor
+    production_speed_buildings_factor = ideas_eng_ltl_production_speed_buildings_factor
+    recruitable_population_factor = ideas_eng_ltl_recruitable_population_factor
+    production_factory_efficiency_gain_factor = ideas_eng_ltl_production_factory_efficiency_gain_factor
+
+}
+
+ideas_king_eduard = {
+    allowed = {
+    	always = no
+    }
+
+	add_popularity = {
+		ideology = national_syndicalism
+		popularity = ideas_eng_king_add_popularity
+		}
+	politic_power_drift = 0.5
+	stability_factor = ideas_eng_king_stability_factor
+	war_support_factor = ideas_eng_king_war_support_factor
+}

@@ -8,9 +8,9 @@ state=
 	
 	history=
 	{
-		owner = MAF
+		owner = ZEN
 		add_core_of = EQG
-		add_core_of = MAF
+		add_core_of = ZEN
 		victory_points = {
 			1903 1 
 		}

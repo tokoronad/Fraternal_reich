@@ -1,0 +1,15 @@
+characters = {
+	MAF_Paul_Emil_von = {
+		name = "Paul Emil von" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Mittelafrica/MAF/portrait_MAF_Paul_Emil_von.dds"
+			}
+		}
+		country_leader = {
+			ideology = colonial_government_authoritarian
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

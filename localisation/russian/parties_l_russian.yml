@@ -234,8 +234,8 @@
  FRA_authoritarian_democracy_party_long: "Бонапарты"
  FRA_despotism_party: "ФСГ"
  FRA_despotism_party_long: "Французская Националистическая Гвардия"
- FRA_revolutionary_nationalism_party: "ФНП"
- FRA_revolutionary_nationalism_party_long: "Французская Народная Партия"
+ revolutionary_nationalism_party: "ПНС"
+ revolutionary_nationalism_party_long: "Партия национального содействия"
  FRA_national_syndicalism_party: "НсНФП"
  FRA_national_syndicalism_party_long: "Нео-социалистическая Народная Французская Партия"
  
