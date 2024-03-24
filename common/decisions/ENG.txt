@@ -1,0 +1,335 @@
+ENG_support_national_syndy_in_IRE_cat = {
+	ENG_propagandise_national_syndy_sentiment = {
+
+		icon = eng_propaganda_campaigns
+
+		available = {
+		}
+		targets = {
+			IRE
+		}
+
+		cancel_trigger = {
+			hidden_trigger = {
+				ENG_is_valid_to_boost_national_syndy = no
+			}
+		}
+
+		target_trigger = {
+
+		}
+		
+		visible = {
+			ENG_is_valid_to_boost_national_syndy = yes
+		}
+		
+		fire_only_once = no
+		days_remove = 20
+
+		cost = 50
+
+		remove_effect = {
+			FROM = {
+				add_to_variable = {
+					var = national_syndy_support
+					value = 10
+				}
+				clamp_variable = {
+					var = national_syndy_support
+					min = 0
+					max = 100
+				}
+				custom_effect_tooltip = add_10_national_syndy_tt
+			}
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+
+	}
+
+	ENG_double_propagandise_national_syndy_sentiment = {
+
+		icon = decision_generic_nationalism
+
+		available = {
+			FROM = {
+				custom_trigger_tooltip = {
+					tooltip = has_national_syndy_support_25_tt
+					check_variable = {
+						national_syndy_support > 24
+					}
+				}
+			}
+		}
+		targets = {
+			IRE
+		}
+		target_trigger = {
+		}
+
+		cancel_trigger = {
+			hidden_trigger = {
+				ENG_is_valid_to_boost_national_syndy = no
+			}
+		}
+		
+		visible = {
+			POL_is_valid_to_boost_national_syndy = yes
+		}
+		
+		fire_only_once = no
+		days_remove = 25
+
+		cost = 100
+
+		remove_effect = {
+			FROM = {
+				add_to_variable = {
+					var = national_syndy_support
+					value = 15
+				}
+				clamp_variable = {
+					var = national_syndy_support
+					min = 0
+					max = 100
+				}
+				custom_effect_tooltip = add_15_national_syndy_tt
+			}
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+
+	}
+
+	ENG_sway_ireland_generals = {
+
+		icon = generic_army_support
+
+		available = {
+			FROM = {
+				custom_trigger_tooltip = {
+					tooltip = has_national_syndy_support_25_tt
+					check_variable = {
+						national_syndy_support > 24
+					}
+				}
+			}
+		}
+		targets = {
+			IRE
+		}
+		target_trigger = {
+
+		}
+		
+		cancel_trigger = {
+			hidden_trigger = {
+				ENG_is_valid_to_boost_national_syndy = no
+			}
+		}
+		
+		visible = {
+			ENG_is_valid_to_boost_national_syndy = yes
+		}
+		
+		fire_only_once = no
+		days_remove = 25
+
+		custom_cost_trigger = {
+			command_power > 24
+			has_political_power > 24
+		}
+		custom_cost_text = decision_cost_CP_25_pp_25
+		
+		complete_effect = {
+			hidden_effect = {
+				add_command_power = -25
+				add_political_power = -25
+			}
+		}
+
+		remove_effect = {
+			FROM = {
+				add_to_variable = {
+					var = national_syndy_support
+					value = 10
+				}
+				clamp_variable = {
+					var = national_syndy_support
+					min = 0
+					max = 100
+				}
+			}
+
+			custom_effect_tooltip = add_10_national_syndy_tt
+			custom_effect_tooltip = random_general_national_syndy_tt
+			hidden_effect = {
+				FROM = {
+					random_unit_leader = {
+						set_unit_leader_flag = ENG_national_syndy_sympathies_flag
+					}
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+
+	}
+
+	ENG_invest_in_ireland = {
+
+		icon = generic_construction
+
+		available = {
+			FROM = {
+				custom_trigger_tooltip = {
+					tooltip = has_national_syndy_support_25_tt
+					check_variable = {
+						national_syndy_support > 24
+					}
+				}
+			}
+		}
+		targets = {
+			IRE
+		}
+		target_trigger = {
+
+		}
+
+		cancel_trigger = {
+			hidden_trigger = {
+				ENG_is_valid_to_boost_national_syndy = no
+			}
+		}
+
+		cancel_effect = {
+			FROM = { remove_ideas = ENG_investments_national_syndy }
+		}
+		
+		visible = {
+			POL_is_valid_to_boost_monarchy = yes
+		}
+		
+		fire_only_once = no
+		days_remove = 30
+
+		custom_cost_trigger = {
+			num_of_civilian_factories_available_for_projects > 2
+		}
+		custom_cost_text = decision_cost_civ_factory_3
+		
+		modifier = {
+			civilian_factory_use = 3
+		}
+		
+		complete_effect = {
+			FROM = { add_ideas = ENG_investments_national_syndy }
+		}
+
+		remove_effect = {
+			FROM = {
+				add_to_variable = {
+					var = national_syndy_support
+					value = 10
+				}
+				clamp_variable = {
+					var = national_syndy_support
+					min = 0
+					max = 100
+				}
+			}
+			custom_effect_tooltip = add_10_national_syndy_tt
+			FROM = { remove_ideas = ENG_investments_national_syndy }
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+
+	}
+
+	ENG_arm_national_syndy_militants = {
+
+		icon = generic_prepare_civil_war
+
+		available = {
+			if = {
+				limit = {
+					OR = {
+						has_completed_focus = ENG_support_national_syndy_in_IRE
+						has_completed_focus = ENG_internal_romanian_support
+					}
+				}
+				has_completed_focus = ENG_arm_national_syndy_militants
+			}
+			if = {
+				limit = {
+					has_completed_focus = ENG_support_monarchy_in_IRE
+				}
+				has_completed_focus = ENG_habsburg_national_syndy_militants
+			}
+			IF = {
+				limit = { tag = IRE }
+				has_completed_focus = IRE_arm_national_syndy_militants
+			}
+		}
+		targets = {
+			IRE
+		}
+		target_trigger = {
+
+		}
+		
+		cancel_trigger = {
+			hidden_trigger = {
+				ENG_is_valid_to_boost_national_syndy = no
+			}
+		}
+
+		visible = {
+			ENG_is_valid_to_boost_national_syndy = yes
+		}
+		
+		fire_only_once = no
+		days_remove = 30
+
+		custom_cost_trigger = {
+			has_equipment = { infantry_equipment > 999 }
+		}
+		custom_cost_text = decision_cost_ie_1000
+		
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -1000
+			}
+		}
+
+		remove_effect = {
+			FROM = {
+				add_to_variable = {
+					var = national_syndy_support
+					value = 15
+				}
+				clamp_variable = {
+					var = national_syndy_support
+					min = 0
+					max = 100
+				}
+			}
+			custom_effect_tooltip = add_15_national_syndy_tt
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+
+	}
+}

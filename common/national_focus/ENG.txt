@@ -261,6 +261,7 @@ focus_tree = {
 		y = 4
 		completion_reward = {
 			ENG = { country_event = { id = england.11 } }
+			save_global_event_target_as = ENG_national_syndy_claimer_target
 		}
 	}
 		focus = {
