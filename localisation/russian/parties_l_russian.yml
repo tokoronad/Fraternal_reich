@@ -216,6 +216,7 @@
  JAP_national_syndicalism_party: "Тохокай (левый корпус)"
  JAP_national_syndicalism_party_long: "Тохокай (Восточное общество)"
  
+
  FRA_totalism_party: "БПО"
  FRA_totalism_party_long: "Боевая Пролетарская Организация"
  FRA_syndicalism_party: "ФСРИ"
@@ -244,6 +245,23 @@
  ENG_totalism_party: "Большевики"
  ENG_totalism_party_long: "Большевистская партия Британии"
  ENG_syndicalism_party: "Независимые Лейбористы"
+=======
+ FRA_conservatism_party: "НРД"
+ FRA_conservatism_party_long: "Народно-республиканское движение"
+ FRA_national_conservatism_party: "Консерваторы"
+ FRA_national_conservatism_party_long: "Республиканская федерация"
+ FRA_authoritarian_democracy_party: "Бонапарты(Наполеоны)"
+ FRA_authoritarian_democracy_party_long: "Бонапарты"
+ FRA_despotism_party: "ФСГ"
+ FRA_despotism_party_long: "Французская Националистическая Гвардия"
+ revolutionary_nationalism_party: "ПНС"
+ revolutionary_nationalism_party_long: "Партия национального содействия"
+ FRA_national_syndicalism_party: "НсНФП"
+ FRA_national_syndicalism_party_long: "Нео-социалистическая Народная Французская Партия"
+ 
+ _totalism_party: ""
+ _totalism_party_long: ""
+ ENG_syndicalism_party: "Независимая Лейбористы"
  ENG_syndicalism_party_long: "Независимая рабочая партия"
  ENG_revolutionary_socialism_party: "Коммунисты"
  ENG_revolutionary_socialism_party_long: "Коммунистическая партия Великобритании"
@@ -263,6 +281,10 @@
  ENG_national_syndicalism_party_long: "Партия Национального спасения"
  ENG_revolutionary_nationalism_party: "НСЛ"
  ENG_revolutionary_nationalism_party_long: "Национал-социалистическая лига"
+ ENG_national_syndicalism_party_long: "Партия национального спасения"
+ _revolutionary_nationalism_party: ""
+ _revolutionary_nationalism_party_long: ""
+
  
  ITA_totalism_party: "ИКТН"
  ITA_totalism_party_long: "Итальянская конфедерация труда народа"
@@ -338,7 +360,7 @@
  SPR_revolutionary_nationalism_party_long: "Испанская фаланга (Каудильо)"
  SPR_anarchism_party: "C.N.T/F.A.I"
  SPR_anarchism_party_long: "Национальная федерация труда Анархической Иберий"
- 
+
  USA_totalism_party: "Коммунисты"
  USA_totalism_party_long: "Коммунистическая Партия США"
  USA_syndicalism_party: "ИРМ"
@@ -363,7 +385,7 @@
  USA_revolutionary_nationalism_party_long: "Христианский националистический крестовый поход"
  USA_anarchism_party: ""
  USA_anarchism_party_long: ""
- 
+
  _totalism_party: ""
  _totalism_party_long: ""
  _syndicalism_party: ""

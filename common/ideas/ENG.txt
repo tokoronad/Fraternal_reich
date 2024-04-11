@@ -1,0 +1,362 @@
+ideas = {
+	country = {
+		ideas_eng_economic_revival = {
+			
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = por_unstable_republic
+			
+			modifier = {
+				consumer_goods_factor = -0.1
+				production_speed_industrial_complex_factor = 0.1
+				production_speed_infrastructure_factor = 0.1
+			}
+		}
+		ideas_eng_military_industry_buildup = {
+		
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = HUN_treaty_of_triannon
+			
+			modifier = {
+				production_speed_arms_factory_factor = 0.1
+				war_support_factor = 0.05
+			}
+		}
+
+		ideas_eng_victory_is_our = { 
+            allowed = {
+            	always = no
+            }
+
+            allowed_civil_war = { 
+            	always = yes
+            }
+
+            modifier = { 
+				war_support_factor = 0.1
+            	add_manpower = 0.01
+            }
+			removal_cost = -1
+        }
+        ideas_eng_subjugate_press = {
+            allowed = {
+            	always = no
+            }
+
+            allowed_civil_war = { 
+            	always = yes
+            }
+
+            modifier = { 
+				national_syndicalism_drift = +0.2
+			}
+			removal_cost = -1
+        }
+        ideas_new_standart = {
+            allowed = {
+            	always = no
+            }
+
+            allowed_civil_war = { 
+            	always = yes
+            }
+
+            modifier = { 
+				national_syndicalism_drift = +0.2
+				unit_leader_as_advisor_cp_cost_factor = -0.15
+				promote_cost_factor = -0.25
+				army_leader_cost_factor = -0.25
+				reassignment_duration_factor = -0.25
+			}
+			removal_cost = -1
+        }
+        unity_of_the_nation = {
+            allowed = {
+            	always = no
+            }
+
+            allowed_civil_war = { 
+            	always = yes
+            }
+
+            modifier = { 
+                recruitable_population_factor = 0.05
+                stability_factor = 0.05
+                war_support_factor = 0.05
+                production_factory_efficiency_gain_factor = 0.05
+			}
+			removal_cost = -1
+        }
+	}   
+	air_chief = {
+
+        duglas_beider = {
+
+			picture = GFX_idea_duglas_beider
+
+            allowed = {
+                original_tag = ENG
+            }
+            
+            traits = { air_specialist }
+
+			on_add = {
+			}
+        }
+
+	}
+	political_advisor = {
+
+        henry_asquit = {
+
+			picture = GFX_idea_henry_asquit
+
+            allowed = {
+                original_tag = ENG
+            }
+            
+            traits = { politic_liberal }
+
+			on_add = {
+				custom_trigger_tooltip = {	
+					always = no
+				}
+			}
+        }
+
+        david_lindsi = {
+
+			picture = GFX_idea_david_lindsi
+
+            allowed = {
+                original_tag = ENG
+            }
+            
+            traits = { leeper_of_seal }
+
+			on_add = {
+				
+			}
+        }
+
+        ramsei_macdonald = {
+
+			picture = GFX_idea_ramsei_macdonald
+
+            allowed = {
+                original_tag = ENG
+            }
+            
+            traits = { teacher_orator }
+
+			on_add = {
+			}
+        }
+
+        stanley_bolduin = {
+
+			picture = GFX_idea_stanley_bolduin
+
+            allowed = {
+                original_tag = ENG
+            }
+            
+            traits = { politic_economist }
+
+			on_add = {
+			}
+        }
+
+        herbert_morrison = {
+
+			picture = GFX_idea_herbert_morrison
+
+            allowed = {
+                original_tag = ENG
+            }
+            
+            traits = { genial_economist }
+
+			on_add = {
+			}
+        }
+
+        artur_horner = {
+
+			picture = GFX_idea_artur_horner
+
+            allowed = {
+                original_tag = ENG
+            }
+            
+            traits = { collectivist }
+
+			on_add = {
+				custom_trigger_tooltip = {	
+					always = no
+				}
+			}
+        }
+
+        clifford_allen = {
+
+			picture = GFX_idea_clifford_allen
+
+            allowed = {
+                original_tag = ENG
+            }
+            
+            traits = { Labour_Pacifist }
+
+			on_add = {
+				custom_trigger_tooltip = {	
+					always = no
+				}
+			}
+        }
+
+        barns_uolles = {
+
+			picture = GFX_idea_barns_uolles
+
+            allowed = {
+                original_tag = ENG
+            }
+            
+            traits = { defense_industrialist }
+
+			on_add = {
+			}
+        }
+
+        meri_stoups = {
+
+			picture = GFX_idea_meri_stoups
+
+            allowed = {
+                original_tag = ENG
+            }
+            
+            traits = { scientist_feminist }
+
+			on_add = {
+			}
+        }
+
+        uilliam_jois = {
+
+			picture = GFX_idea_uilliam_jois
+
+            allowed = {
+                original_tag = ENG
+            }
+            
+            traits = { born_agitator }
+
+			on_add = {
+				country_event = political.7
+			}
+        }
+
+        arnold_liz = {
+
+			picture = GFX_idea_arnold_liz
+
+            allowed = {
+                original_tag = ENG
+            }
+            
+            traits = { ideology_propogandist }
+
+			on_add = {
+			}
+        }
+
+        john_berd = {
+
+			picture = GFX_idea_mackswell_eitken
+
+            allowed = {
+                original_tag = ENG
+            }
+            
+            traits = { engenear_electric }
+
+			on_add = {
+			}
+        }
+
+        frenk_uittl = {
+
+			picture = GFX_idea_john_berd
+
+            allowed = {
+                original_tag = ENG
+            }
+            
+            traits = { constructor_engenear }
+
+			on_add = {
+			}
+        }
+
+        george_oruell = {
+
+			picture = GFX_idea_george_oruell
+
+            allowed = {
+                original_tag = ENG
+            }
+            
+            traits = { writer_socialist }
+
+			on_add = {
+				country_event = political.7
+			}
+        }
+
+        mackswell_eitken = {
+
+			picture = GFX_idea_frenk_uittl
+
+            allowed = {
+                original_tag = ENG
+            }
+            
+            traits = { army_magnat }
+
+			on_add = {
+			}
+        }
+
+        ernst_bevny = {
+
+			picture = GFX_idea_ernst_bevny
+
+            allowed = {
+                original_tag = ENG
+            }
+            
+            traits = { Quartermaster_General }
+
+			on_add = {
+			}
+        }
+
+	}
+}

@@ -1,0 +1,15 @@
+characters = {
+	SLA_Daniel_Francois_Malan = {
+		name = "Daniel Francois Malan" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/SLA/portrait_SLA_Daniel_Francois_Malan.dds"
+			}
+		}
+		country_leader = {
+			ideology = african_nationalism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

@@ -7,8 +7,9 @@ state={
 		chromium=4
 	} #Maganese
 	history={
-		owner = MAF
+		owner = WST
 		add_core_of = GHA
+		add_core_of = WST
 		buildings = {
 			infrastructure = 2
 			12785 = {

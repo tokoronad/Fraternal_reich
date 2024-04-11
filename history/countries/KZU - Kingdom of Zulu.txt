@@ -1,0 +1,32 @@
+﻿capital = 971
+
+	oob = "KZU_1933"
+
+	set_research_slots = 2
+	
+recruit_character = KZU_Cyprian_Bekuzulua
+
+set_technology = {
+}
+	
+set_politics = {
+	ruling_party = despotism
+	last_election = "1929.12.12"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	totalism = 4
+	syndicalism = 4
+	revolutionary_socialism	= 5
+	social_democracy = 1
+	social_liberal = 2
+	conservatism = 2
+	national_conservatism = 1
+	authoritarian_democracy = 4
+	despotism = 68
+	national_syndicalism = 3
+	revolutionary_nationalism = 6
+	anarchism = 0
+}

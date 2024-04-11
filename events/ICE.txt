@@ -1,0 +1,30 @@
+add_namespace = iceland
+
+country_event = {
+	id = iceland.1
+	title = iceland.1.t
+	desc = iceland.1.d
+	picture = GFX_report_event_people_believe_in_their_leader
+	is_triggered_only = yes
+    option = {
+        name = iceland.1.a
+		ENG = { country_event = { id = england.17 } }
+		ai_chance = {
+			base = 100
+		}
+	}
+    option = {
+        name = iceland.1.b
+		ENG = {
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = ICE
+				expire = 0
+			}
+		ENG = { country_event = { id = england.18 } }
+		}
+		ai_chance = {
+			base = 0
+		}
+	}
+}

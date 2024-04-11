@@ -5,7 +5,43 @@
 	set_research_slots = 4 
 	
 recruit_character = GER_william_ii
-
+If = {
+	set_autonomy = {
+		target = ZEN
+		autonomous_state = Colony
+		freedom_level = 0.2
+	}
+	set_autonomy = {
+		target = NGA
+		autonomous_state = Colony
+		freedom_level = 0.2
+	}
+	set_autonomy = {
+		target = WST
+		autonomous_state = Colony
+		freedom_level = 0.2
+	}
+	set_autonomy = {
+		target = OST
+		autonomous_state = Colony
+		freedom_level = 0.2
+	}
+	set_autonomy = {
+		target = ZAM
+		autonomous_state = Colony
+		freedom_level = 0.2
+	}
+	set_autonomy = {
+		target = SDW
+		autonomous_state = Colony
+		freedom_level = 0.2
+	}
+	set_autonomy = {
+		target = GEI
+		autonomous_state = Colony
+		freedom_level = 0.2
+	}
+}
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1

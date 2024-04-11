@@ -1,0 +1,15 @@
+characters = {
+	MAF_Rudolf_Asmis = {
+		name = "Rudolf Asmis" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Mittelafrica/MAF/portrait_MAF_Rudolf_Asmis.dds"
+			}
+		}
+		country_leader = {
+			ideology = colonial_government_authoritarian
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

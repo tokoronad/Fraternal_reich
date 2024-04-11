@@ -8198,6 +8198,74 @@ spriteTypes = {
 		name = "GFX_idea_FRA_raise_a_call"
 		texturefile = "gfx/interface/ideas/idea_FRA_raise_a_call.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_ernst_bevny"
+		texturefile = "gfx/interface/ideas/idea_ernst_bevny.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_frenk_uittl"
+		texturefile = "gfx/interface/ideas/idea_frenk_uittl.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_george_oruell"
+		texturefile = "gfx/interface/ideas/idea_george_oruell.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_john_berd"
+		texturefile = "gfx/interface/ideas/idea_john_berd.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_mackswell_eitken"
+		texturefile = "gfx/interface/ideas/idea_mackswell_eitken.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_arnold_liz"
+		texturefile = "gfx/interface/ideas/idea_arnold_liz.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_uilliam_jois"
+		texturefile = "gfx/interface/ideas/idea_uilliam_jois.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_meri_stoups"
+		texturefile = "gfx/interface/ideas/idea_meri_stoups.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_barns_uolles"
+		texturefile = "gfx/interface/ideas/idea_barns_uolles.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_duglas_beider"
+		texturefile = "gfx/interface/ideas/idea_duglas_beider.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_clifford_allen"
+		texturefile = "gfx/interface/ideas/idea_clifford_allen.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_artur_horner"
+		texturefile = "gfx/interface/ideas/idea_artur_horner.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_herbert_morrison"
+		texturefile = "gfx/interface/ideas/idea_herbert_morrison.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_stanley_bolduin"
+		texturefile = "gfx/interface/ideas/idea_stanley_bolduin.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ramsei_macdonald"
+		texturefile = "gfx/interface/ideas/idea_ramsei_macdonald.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_david_lindsi"
+		texturefile = "gfx/interface/ideas/idea_david_lindsi.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_henry_asquit"
+		texturefile = "gfx/interface/ideas/idea_henry_asquit.dds"
+	}
 	
 
 }

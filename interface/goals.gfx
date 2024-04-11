@@ -5188,5 +5188,249 @@ spriteTypes = {
 		name = "GFX_focus_FRA_raise_a_call"
 		texturefile = "gfx/interface/goals/focus_FRA_raise_a_call.dds"
 	}
+	SpriteType = { 
+		name = "GFX_we_are_founders_of_European_unity"
+		texturefile = "gfx/interface/goals/GFX_we_are_founders_of_European_unity.dds"
+	}
+	SpriteType = { 
+		name = "GFX_fanaticism_in_our_army"
+		texturefile = "gfx/interface/goals/GFX_fanaticism_in_our_army.dds"
+	}
+	SpriteType = { 
+		name = "GFX_we_are_close_to_ideal"
+		texturefile = "gfx/interface/goals/GFX_we_are_close_to_ideal.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_ENG_"
+		texturefile = "gfx/interface/goals/.dds"
+	}
+	SpriteType = { 
+		name = "GFX_division_obsessed_with_the_ideas_of_leader"
+		texturefile = "gfx/interface/goals/GFX_division_obsessed_with_the_ideas_of_leader.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_ENG_without_rats_in_the_government"
+		texturefile = "gfx/interface/goals/GFX_focus_ENG_without_rats_in_the_government.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_ENG_opposition_is_the_new_labor_force"
+		texturefile = "gfx/interface/goals/GFX_focus_ENG_opposition_is_the_new_labor_force.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_ENG_people_believe_in_their_leader"
+		texturefile = "gfx/interface/goals/GFX_focus_ENG_people_believe_in_their_leader.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_ENG_calmness_at_the_cost_of_an_idea"
+		texturefile = "gfx/interface/goals/GFX_focus_ENG_calmness_at_the_cost_of_an_idea.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_ENG_convince_the_infidels_to_obey"
+		texturefile = "gfx/interface/goals/GFX_focus_ENG_convince_the_infidels_to_obey.dds"
+	}
+	SpriteType = { 
+		name = "GFX_best_intelligence_in_the_world"
+		texturefile = "gfx/interface/goals/GFX_best_intelligence_in_the_world.dds"
+	}
+	SpriteType = { 
+		name = "GFX_expand_the_staff"
+		texturefile = "gfx/interface/goals/GFX_expand_the_staff.dds"
+	}
+	SpriteType = { 
+		name = "GFX_every_corner_by_an_agent"
+		texturefile = "gfx/interface/goals/GFX_every_corner_by_an_agent.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_ENG_minds_are_under_our_control"
+		texturefile = "gfx/interface/goals/GFX_focus_ENG_minds_are_under_our_control.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_ENG_our_place_is_truly_under_the_sun"
+		texturefile = "gfx/interface/goals/GFX_focus_ENG_our_place_is_truly_under_the_sun.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_ENG_like_a_phoenix"
+		texturefile = "gfx/interface/goals/GFX_focus_ENG_like_a_phoenix.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_ENG_step_away_from_justice"
+		texturefile = "gfx/interface/goals/GFX_focus_ENG_step_away_from_justice.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_ENG_hour_of_reckoning_has_struck"
+		texturefile = "gfx/interface/goals/GFX_focus_ENG_hour_of_reckoning_has_struck.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_ENG_our_gaze_fell_on_Scandinavia"
+		texturefile = "gfx/interface/goals/GFX_focus_ENG_our_gaze_fell_on_Scandinavia.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_ENG_our_plans_for_Norway"
+		texturefile = "gfx/interface/goals/GFX_focus_ENG_our_plans_for_Norway.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_ENG_establishing_a_controlled_dictatorship"
+		texturefile = "gfx/interface/goals/GFX_focus_ENG_establishing_a_controlled_dictatorship.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_ENG_undermining_stability_in_Norway"
+		texturefile = "gfx/interface/goals/GFX_focus_ENG_undermining_stability_in_Norway.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_ENG_popularizing_British_ideas"
+		texturefile = "gfx/interface/goals/GFX_focus_ENG_popularizing_British_ideas.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_ENG_overthrowing_the_current_government"
+		texturefile = "gfx/interface/goals/GFX_focus_ENG_overthrowing_the_current_government.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_ENG_introducing_loyalists_to_Norway"
+		texturefile = "gfx/interface/goals/GFX_focus_ENG_introducing_loyalists_to_Norway.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_ENG_Iceland_is_a_wonderful_outpost"
+		texturefile = "gfx/interface/goals/GFX_focus_ENG_Iceland_is_a_wonderful_outpost.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_ENG_diplomatic_visit_to_Reykjavik"
+		texturefile = "gfx/interface/goals/GFX_focus_ENG_diplomatic_visit_to_Reykjavik.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_ENG_putting_pressure_on_their_government"
+		texturefile = "gfx/interface/goals/GFX_focus_ENG_putting_pressure_on_their_government.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_ENG_Iceland_is_our_ice_bastion"
+		texturefile = "gfx/interface/goals/GFX_focus_ENG_Iceland_is_our_ice_bastion.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_ENG_add_fuel_to_the_fire"
+		texturefile = "gfx/interface/goals/GFX_focus_ENG_add_fuel_to_the_fire.dds"
+	}
+	SpriteType = { 
+		name = "GFX_increase_the_funding_of_agency"
+		texturefile = "gfx/interface/goals/GFX_increase_the_funding_of_agency.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_ENG_Wales_is_also_part_of_Britain"
+		texturefile = "gfx/interface/goals/GFX_focus_ENG_Wales_is_also_part_of_Britain.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_ENG_new_infrastructure_for_the_brothers"
+		texturefile = "gfx/interface/goals/GFX_focus_ENG_new_infrastructure_for_the_brothers.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_ENG_common_goals_and_views"
+		texturefile = "gfx/interface/goals/GFX_focus_ENG_common_goals_and_views.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_ENG_chief_visit_to_Wales"
+		texturefile = "gfx/interface/goals/GFX_focus_ENG_chief_visit_to_Wales.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_ENG_Scotland_is_also_part_of_Britain"
+		texturefile = "gfx/interface/goals/GFX_focus_ENG_Scotland_is_also_part_of_Britain.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_ENG_total_support_for_the_leader"
+		texturefile = "gfx/interface/goals/GFX_focus_ENG_total_support_for_the_leader.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_ENG_new_enterprises_on_fraternal_land"
+		texturefile = "gfx/interface/goals/GFX_focus_ENG_new_enterprises_on_fraternal_land.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_ENG_reassure_the_local_population"
+		texturefile = "gfx/interface/goals/GFX_focus_ENG_reassure_the_local_population.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_ENG_our_brave_leader"
+		texturefile = "gfx/interface/goals/GFX_focus_ENG_our_brave_leader.dds"
+	}
+	SpriteType = { 
+		name = "GFX_King_dead"
+		texturefile = "gfx/interface/goals/GFX_King_dead.dds"
+	}
+	SpriteType = { 
+		name = "GFX_new_emperror"
+		texturefile = "gfx/interface/goals/GFX_new_emperror.dds"
+	}
+	SpriteType = { 
+		name = "GFX_our_monarchy_diplomation"
+		texturefile = "gfx/interface/goals/GFX_our_monarchy_diplomation.dds"
+	}
+	SpriteType = { 
+		name = "GFX_reassure_citizens"
+		texturefile = "gfx/interface/goals/GFX_reassure_citizens.dds"
+	}
+	SpriteType = { 
+		name = "GFX_party_order"
+		texturefile = "gfx/interface/goals/GFX_party_order.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_ENG_victory_is_ours"
+		texturefile = "gfx/interface/goals/GFX_focus_ENG_victory_is_ours.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_ENG_breack_the_masses"
+		texturefile = "gfx/interface/goals/GFX_focus_ENG_breack_the_masses.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_ENG_propaganda_is_our_everything"
+		texturefile = "gfx/interface/goals/GFX_focus_ENG_propaganda_is_our_everything.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_ENG_abolis_independen_publications"
+		texturefile = "gfx/interface/goals/GFX_focus_ENG_abolis_independen_publications.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_ENG_subjugate_the_press"
+		texturefile = "gfx/interface/goals/GFX_focus_ENG_subjugate_the_press.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_ENG_win_the_hearts_of_the_recalcitrant"
+		texturefile = "gfx/interface/goals/GFX_focus_ENG_win_the_hearts_of_the_recalcitrant.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_ENG_appeal_to_the_Scots"
+		texturefile = "gfx/interface/goals/GFX_focus_ENG_appeal_to_the_Scots.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_ENG_arms_supplies_to_Ireland"
+		texturefile = "gfx/interface/goals/GFX_focus_ENG_arms_supplies_to_Ireland.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_ENG_leaflets_in_Ireland"
+		texturefile = "gfx/interface/goals/GFX_focus_ENG_leaflets_in_Ireland.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_ENG_raids_on_IRA"
+		texturefile = "gfx/interface/goals/GFX_focus_ENG_raids_on_IRA.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_ENG_dissident_is_a_traitor"
+		texturefile = "gfx/interface/goals/GFX_focus_ENG_dissident_is_a_traitor.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_ENG_pacify_the_supporters_of_the_monarchy"
+		texturefile = "gfx/interface/goals/GFX_focus_ENG_pacify_the_supporters_of_the_monarchy.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_ENG_get_rid_of_the_opposition"
+		texturefile = "gfx/interface/goals/GFX_focus_ENG_get_rid_of_the_opposition.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_ENG_letter_from_the_king"
+		texturefile = "gfx/interface/goals/GFX_focus_ENG_letter_from_the_king.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_ENG_will_agree"
+		texturefile = "gfx/interface/goals/GFX_focus_ENG_will_agree.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_ENG_refuse"
+		texturefile = "gfx/interface/goals/GFX_focus_ENG_refuse.dds"
+	}
 
 }

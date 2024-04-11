@@ -1,13 +1,13 @@
 characters = {
-	CHL_Marmaduke_Grove = {
-		name = "Marmaduke Grove" 
+	SAF_Alexander_Cambridge= {
+		name = "Alexander Cambridge" 
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/South America/CHL/portrait_CHL_Marmaduke_Grove.dds"
+				large = "gfx/leaders/Africa/SAF/portrait_SAF_Alexander_Cambridge.dds"
 			}
 		}
 		country_leader = {
-			ideology = utopian_syndicalism
+			ideology = colonial_government_despotism
 			expire = "1950.1.1.1"
 			id = -1
 		}

@@ -3,13 +3,36 @@ characters = {
 		name = "Oswald Mosley" 
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/Europe/ENG/portrait_ENG_oswald_mosley.dds"
+				large = "gfx/leaders/Europe/ENG/portrait_ENG_oswald_mosley.png"
 			}
 		}
 		country_leader = {
 			ideology = british_unionism
 			expire = "1950.1.1.1"
 			id = -1
+		}
+	}
+
+		ENG_villam_Bruk = {
+		name = ENG_villam_Bruk
+		portraits={
+			army={
+				small="GFX_idea_joseph_goebbels"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			cost = 75.000
+			allowed = {
+				original_tag = ENG
+			}
+			available = {
+				has_government = national_syndicalism
+				has_completed_focus = ENG_propaganda_is_our_everything
+			}
+			traits = {
+				trait_talented_speaker
+			}
 		}
 	}
 }

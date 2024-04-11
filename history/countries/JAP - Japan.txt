@@ -43,7 +43,7 @@ set_popularities = {
 	fascism = 10
 }
 add_ideas = {
-	ideas_JAP_defeat_russo_japanese_war
+	JAP_defeat_russo_japanese_war
 	state_shintoism
 	JAP_duplicate_research_efforts
 	unstable_army

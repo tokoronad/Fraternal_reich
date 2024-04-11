@@ -475,6 +475,21 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_ideology_russian_conservatism"
+		texturefile = "gfx/interface/ideologies/subideologies/russian_conservatism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_prussian_conservatism"
+		texturefile = "gfx/interface/ideologies/subideologies/prussian_conservatism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_romanov_dictatorship"
+		texturefile = "gfx/interface/ideologies/subideologies/romanov_dictatorship.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_ideology_conservatism_group"
 		texturefile = "gfx/interface/ideologies/conservatism_group.dds"
 	}
@@ -547,6 +562,31 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ideology_african_socialism"
 		texturefile = "gfx/interface/ideologies/subideologies/african_socialism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_federal_monarchy"
+		texturefile = "gfx/interface/ideologies/subideologies/federal_monarchy.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_left_confederalism"
+		texturefile = "gfx/interface/ideologies/subideologies/left_confederalism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_national_confederalism"
+		texturefile = "gfx/interface/ideologies/subideologies/national_confederalism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_utopian_syndicalism"
+		texturefile = "gfx/interface/ideologies/subideologies/utopian_syndicalism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_christian_syndicalism"
+		texturefile = "gfx/interface/ideologies/subideologies/christian_syndicalism.dds"
 	}
 	
 	spriteType = {
