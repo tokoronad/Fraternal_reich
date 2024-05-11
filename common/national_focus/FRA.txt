@@ -7,554 +7,595 @@ focus_tree = {
 			tag = FRA
 		}
 	}
-	
 	default = no
 	focus = {
-		id = FRA_remilitarization_of_burgundy
-		icon = GFX_focus_FRA_remilitarization_of_burgundy
-		cost = 5,00
-		x = 10
+		id = FRA_Remilitarization_of_the_Burgundy_region
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 45
 		y = 0
-		
-		completion_reward = {
-			FRA = { country_event = { id = france.1 } }
-			785 = { set_demilitarized_zone = no }
-			938 = { set_demilitarized_zone = no }
-			27 = { set_demilitarized_zone = no }
-			965 = { set_demilitarized_zone = no }
-			add_political_power = 50
-		}
+
 	}
 	focus = {
-		id = FRA_the_path_of_revenge
-		icon = GFX_focus_FRA_the_path_of_revenge
-		cost = 10,00
+		id = FRA_Debates_in_Parliament
+		icon = GFX_goal_unknown
+		cost = 0
 		prerequisite = {
-			focus = FRA_remilitarization_of_burgundy
+			focus = FRA_Remilitarization_of_the_Burgundy_region
 		}
-		mutually_exclusive = {
-			focus = FRA_a_new_way_of_revenge
-		}
-		x = 5
-		y = 1
-		
-		completion_reward = {
-			FRA = { country_event = { id = france.4 } }
-			add_political_power = 25
-		}
-	}
-	focus = {
-		id = FRA_a_new_way_of_revenge
-		icon = GFX_focus_FRA_a_new_way_of_revenge
-		cost = 10,00
-		prerequisite = {
-			focus = FRA_remilitarization_of_burgundy
-		}
-		mutually_exclusive = {
-			focus = FRA_the_path_of_revenge
-		}
-		x = 15
+		x = 45
 		y = 1
 
-		available = {
-			NOT = {
-				has_country_leader = {
-				ruling_only = yes 
-				character = FRA_jacques_doriot 
-				}
-			}
-		}
 	}
 	focus = {
-		id = FRA_elimination_of_remaining_positions
-		icon = GFX_focus_FRA_elimination_of_remaining_positions
-		cost = 10,00
+		id = FRA_New_presidential_elections
+		icon = GFX_goal_unknown
+		cost = 0
 		prerequisite = {
-			focus = FRA_a_new_way_of_revenge
-			focus = FRA_the_path_of_revenge
+			focus = FRA_Debates_in_Parliament
 		}
-		x = 10
+		x = 45
 		y = 2
-		
-			completion_reward = {	
-				add_stability = -0.05
-				add_political_power = -50
-			}
-		
+
 	}
 	focus = {
-		id = FRA_eliminate_conservatives
-		icon = GFX_focus_FRA_eliminate_conservatives
-		cost = 10,00
+		id = FRA_A_stable_path
+		icon = GFX_goal_unknown
+		cost = 0
 		prerequisite = {
-			focus = FRA_elimination_of_remaining_positions
+			focus = FRA_New_presidential_elections
 		}
-		x = 10
+		mutually_exclusive = {
+			focus = FRA_New_candidates
+		}
+		x = 32
 		y = 3
-		
-			completion_reward = {
-				add_popularity = {
-				ideology = conservatism
-				popularity = -0.08
-			}
-				add_popularity = {
-				ideology = social_liberal
-				popularity = -0.08
-			}	
-				add_popularity = {
-				ideology = national_conservatism
-				popularity = -0.08
-			}
-				add_popularity = {
-				ideology = revolutionary_nationalism
-				popularity = 0.1
-			}
-			add_stability = -0.05
-			add_manpower = -8000
-			add_political_power = -50
-		}
-	}
-	focus = {
-		id = FRA_deal_with_the_left
-		icon = GFX_focus_FRA_deal_with_the_left
-		cost = 10,00
-		prerequisite = {
-			focus = FRA_eliminate_conservatives
-		}
-		x = 9
-		y = 4
-
-			completion_reward = {
-				add_popularity = {
-				ideology = revolutionary_socialism
-				popularity = -0.08
-			}
-				add_popularity = {
-				ideology = syndicalism
-				popularity = -0.08
-			}	
-				add_popularity = {
-				ideology = social_democracy
-				popularity = -0.08
-			}
-				add_popularity = {
-				ideology = revolutionary_nationalism
-				popularity = 0.1
-			}
-			add_stability = 0.05
-			add_manpower = -1000
-			add_political_power = -50
-		}
-	}
-	focus = {
-		id = FRA_deal_with_the_neosocialists
-		icon = GFX_focus_FRA_deal_with_the_neosocialists
-		cost = 10,00
-		prerequisite = {
-			focus = FRA_eliminate_conservatives
-		}
-		x = 11
-		y = 4
-		
-			completion_reward = {	
-				add_popularity = {
-				ideology = national_syndicalism
-				popularity = -0.1
-			}
-				add_popularity = {
-				ideology = revolutionary_nationalism
-				popularity = 0.08
-			}
-			add_stability = -0.05
-			add_manpower = -10000
-			add_political_power = -50
-		}
 
 	}
 	focus = {
-		id = FRA_disperse_the_others
-		icon = GFX_focus_FRA_disperse_the_others
-		cost = 10,00
+		id = FRA_New_candidates
+		icon = GFX_goal_unknown
+		cost = 0
 		prerequisite = {
-			focus = FRA_deal_with_the_neosocialists
-			focus = FRA_deal_with_the_left
+			focus = FRA_New_presidential_elections
 		}
-		x = 10
+		mutually_exclusive = {
+			focus = FRA_A_stable_path
+		}
+		x = 53
+		y = 3
+
+	}
+	focus = {
+		id = FRA_Dorios_speech_at_the_National_Assembly
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = FRA_A_stable_path
+		}
+		x = 32
+		y = 4
+
+	}
+	focus = {
+		id = FRA_a_new_reform_package_for_France
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = FRA_Dorios_speech_at_the_National_Assembly
+		}
+		x = 32
 		y = 5
 
-		completion_reward = {	
-				add_popularity = {
-				ideology = authoritarian_democracy
-				popularity = -0.08
-			}
-				add_popularity = {
-				ideology = despotism
-				popularity = -0.08
-			}
-				add_popularity = {
-				ideology = revolutionary_nationalism
-				popularity = 0.05
-			}
-			add_stability = -0.05
-			add_manpower = -10000
-			add_political_power = -50
-		}
 	}
 	focus = {
-		id = FRA_racial_survey
-		icon = GFX_focus_FRA_racial_survey
-		cost = 10,00
+		id = FRA_affirmation_of_revanchism
+		icon = GFX_goal_unknown
+		cost = 0
 		prerequisite = {
-			focus = FRA_disperse_the_others
+			focus = FRA_a_new_reform_package_for_France
 		}
-		x = 10
+		x = 32
 		y = 6
 
 	}
 	focus = {
-		id = FRA_persecution_of_Jews
-		icon = GFX_focus_FRA_persecution_of_Jews
-		cost = 10,00
+		id = FRA_Corporate_Board_approval
+		icon = GFX_goal_unknown
+		cost = 0
 		prerequisite = {
-			focus = FRA_racial_survey
+			focus = FRA_a_new_reform_package_for_France
 		}
-		x = 10
+		x = 34
+		y = 6
+
+	}
+	focus = {
+		id = FRA_Ideological_education_of_young_people
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = FRA_a_new_reform_package_for_France
+		}
+		x = 30
+		y = 6
+
+	}
+	focus = {
+		id = FRA_Propaganda_films
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = FRA_affirmation_of_revanchism
+		}
+		prerequisite = {
+			focus = FRA_Ideological_education_of_young_people
+		}
+		prerequisite = {
+			focus = FRA_Corporate_Board_approval
+		}
+		x = 31
 		y = 7
 
 	}
 	focus = {
-		id = FRA_secret_police
-		icon = GFX_focus_FRA_secret_police
-		cost = 10,00
-		prerequisite = {
-			focus = FRA_the_path_of_revenge
-		}
-		x = 1
-		y = 2
-		
-			completion_reward = {	
-				army_experience = 5
-				add_stability = 0.05
-				add_ideas = idea1 
-			}
-
-	}
-	focus = {
-		id = FRA_raise_a_call
-		icon = GFX_focus_FRA_raise_a_call
-		cost = 10,00
-		prerequisite = {
-			focus = FRA_secret_police
-		}
-		x = 1
-		y = 3
-
-			completion_reward = {	
-				army_experience = 5
-				add_manpower = 10000 
-				
-			}
-
-	}
-	focus = {
-		id = FRA_improve_the_police
+		id = FRA_Introduction_of_the_Four_Year_Supreme_Plan
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 0
 		prerequisite = {
-			focus = FRA_raise_a_call
+			focus = FRA_Ideological_education_of_young_people
 		}
-		x = 1
-		y = 4
+		prerequisite = {
+			focus = FRA_affirmation_of_revanchism
+		}
+		prerequisite = {
+			focus = FRA_Corporate_Board_approval
+		}
+		x = 33
+		y = 7
 
 	}
 	focus = {
-		id = FRA_kill_Francois_de_la_Roque
-		icon = GFX_focus_FRA_kill_Francois_de_la_Roque
-		cost = 10,00
-		prerequisite = {
-			focus = FRA_the_path_of_revenge
-		}
-		x = 5
-		y = 2
-
-		completion_reward = {
-			FRA = { country_event = { id = kill_Francois_de_la_Roque } }
-			add_stability = -0.1
-			add_political_power = -100
-		}
-	}
-	focus = {
-		id = FRA_kill_Jacques_Doriot
-		icon = GFX_focus_FRA_kill_Jacques_Doriot
-		cost = 10,00
-		prerequisite = {
-			focus = FRA_a_new_way_of_revenge
-		}
-		x = 15
-		y = 2
-		
-		completion_reward = {
-			FRA = { country_event = { id = kill_Jacques_Doriot } }
-			add_stability = -0.1
-			add_political_power = -100
-		}
-	}
-	focus = {
-		id = FRA_restore_fss
+		id = FRA_The_law_on_expanding_the_powers_of_the_President
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 0
 		prerequisite = {
-			focus = FRA_a_new_way_of_revenge
+			focus = FRA_Propaganda_films
 		}
-		x = 19
-		y = 2
+		prerequisite = {
+			focus = FRA_Introduction_of_the_Four_Year_Supreme_Plan
+		}
+		x = 32
+		y = 8
 
 	}
 	focus = {
-		id = FRA_raise_a_call_fss
+		id = FRA_The_new_chiefdom
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 0
 		prerequisite = {
-			focus = FRA_restore_fss
+			focus = FRA_The_law_on_expanding_the_powers_of_the_President
 		}
-		x = 19
-		y = 3
+		x = 32
+		y = 9
 
 	}
 	focus = {
-		id = FRA_improve_fss
+		id = FRA_The_cult_of_Dorios_personality
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 0
 		prerequisite = {
-			focus = FRA_raise_a_call_fss
+			focus = FRA_The_new_chiefdom
 		}
-		x = 19
-		y = 4
+		x = 32
+		y = 10
 
 	}
 	focus = {
-		id = FRA_persecution_of_Jews_and_Slavs
+		id = FRA_National_solidarity
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 0
 		prerequisite = {
-			focus = FRA_improve_fss
+			focus = FRA_The_cult_of_Dorios_personality
 		}
-		x = 19
-		y = 5
+		x = 32
+		y = 11
 
 	}
 	focus = {
-		id = FRA_to_the_government_fss
+		id = FRA_The_murder_of_De_La_Roca
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 0
 		prerequisite = {
-			focus = FRA_persecution_of_Jews_and_Slavs
+			focus = FRA_The_cult_of_Dorios_personality
 		}
-		x = 19
-		y = 6
+		x = 34
+		y = 11
 
 	}
 	focus = {
-		id = FRA_foreign_policy
-		icon = GFX_focus_FRA_foreign_policy
-		cost = 5,00
+		id = FRA_Revanchist_rage
+		icon = GFX_goal_unknown
+		cost = 0
 		prerequisite = {
-			focus = FRA_remilitarization_of_burgundy
+			focus = FRA_The_cult_of_Dorios_personality
 		}
 		x = 30
-		y = 1
-		
-		add_political_power = 50
+		y = 11
 
 	}
 	focus = {
-		id = FRA_Iberian_peninsula
+		id = FRA_Follow_our_ideas_in_return_for_a_great_life
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 0
 		prerequisite = {
-			focus = FRA_foreign_policy
+			focus = FRA_National_solidarity
 		}
-		x = 23
-		y = 2
-		
+		x = 31
+		y = 12
 
 	}
 	focus = {
-		id = FRA_help_francoists
+		id = FRA_The_legacy_of_the_Frankish_Empire
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 0
 		prerequisite = {
-			focus = FRA_Iberian_peninsula
-		}
-		mutually_exclusive = {
-			focus = FRA_invade_Spain
-		}
-		x = 22
-		y = 3
-
-	}
-	focus = {
-		id = FRA_invade_Spain
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = FRA_Iberian_peninsula
-		}
-		mutually_exclusive = {
-			focus = FRA_help_francoists
-		}
-		x = 24
-		y = 3
-
-	}
-	focus = {
-		id = FRA_demand_catalonia
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = FRA_invade_Spain
-		}
-		x = 24
-		y = 5
-
-	}
-	focus = {
-		id = FRA_send_lend_lease
-		icon = GFX_goal_unknown
-		cost = 4,00
-		prerequisite = {
-			focus = FRA_help_francoists
-		}
-		x = 22
-		y = 4
-
-	}
-	focus = {
-		id = FRA_send_volunteers
-		icon = GFX_goal_unknown
-		cost = 5,00
-		prerequisite = {
-			focus = FRA_send_lend_lease
-		}
-		x = 22
-		y = 5
-
-	}
-	focus = {
-		id = FRA_send_generals
-		icon = GFX_goal_unknown
-		cost = 6,00
-		prerequisite = {
-			focus = FRA_send_volunteers
-		}
-		x = 22
-		y = 6
-
-	}
-	focus = {
-		id = FRA_north_america
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = FRA_foreign_policy
-		}
-		x = 28
-		y = 2
-
-	}
-	focus = {
-		id = FRA_help_ksa
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = FRA_north_america
-		}
-		mutually_exclusive = {
-			focus = FRA_help_mexico
-		}
-		x = 27
-		y = 3
-
-	}
-	focus = {
-		id = FRA_help_mexico
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = FRA_north_america
-		}
-		mutually_exclusive = {
-			focus = FRA_help_ksa
+			focus = FRA_Revanchist_rage
 		}
 		x = 29
-		y = 3
+		y = 12
 
 	}
 	focus = {
-		id = FRA_start_sending_len_lisa
+		id = FRA_ensuring_the_safety_of_society
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 0
 		prerequisite = {
-			focus = FRA_help_mexico
-			focus = FRA_help_ksa
+			focus = FRA_The_murder_of_De_La_Roca
 		}
-		x = 28
-		y = 4
+		x = 33
+		y = 12
 
 	}
 	focus = {
-		id = FRA_brazil
+		id = FRA_Our_legal_rights_to_Europe
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 0
 		prerequisite = {
-			focus = FRA_foreign_policy
+			focus = FRA_The_legacy_of_the_Frankish_Empire
+		}
+		x = 29
+		y = 13
+
+	}
+	focus = {
+		id = FRA_Promotion_of_a_healthy_lifestyle
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = FRA_ensuring_the_safety_of_society
+		}
+		x = 33
+		y = 13
+
+	}
+	focus = {
+		id = FRA_Petain_is_an_example_of_a_hero_of_French_militarism
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = FRA_Follow_our_ideas_in_return_for_a_great_life
+		}
+		x = 31
+		y = 13
+
+	}
+	focus = {
+		id = FRA_Militarization_of_the_population
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = FRA_Our_legal_rights_to_Europe
+		}
+		prerequisite = {
+			focus = FRA_Petain_is_an_example_of_a_hero_of_French_militarism
+		}
+		x = 30
+		y = 14
+
+	}
+	focus = {
+		id = FRA_Our_own_Age_of_Enlightenment
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = FRA_Petain_is_an_example_of_a_hero_of_French_militarism
+		}
+		prerequisite = {
+			focus = FRA_Promotion_of_a_healthy_lifestyle
 		}
 		x = 32
-		y = 2
+		y = 14
 
 	}
 	focus = {
-		id = FRA_brazil_send_lend_lease
+		id = FRA_Elimination_of_opponents
 		icon = GFX_goal_unknown
-		cost = 4,00
+		cost = 0
 		prerequisite = {
-			focus = FRA_brazil
+			focus = FRA_The_new_chiefdom
 		}
-		x = 32
-		y = 3
+		x = 26
+		y = 10
 
 	}
 	focus = {
-		id = FRA_brazil_send_volunteers
+		id = FRA_Surveillance_of_the_Axion_Francaise
 		icon = GFX_goal_unknown
-		cost = 5,00
+		cost = 0
 		prerequisite = {
-			focus = FRA_brazil_send_lend_lease
+			focus = FRA_Elimination_of_opponents
 		}
-		x = 32
-		y = 4
+		x = 27
+		y = 11
 
 	}
 	focus = {
-		id = FRA_brazil_send_generals
+		id = FRA_Surveillance_of_neo_socialists
 		icon = GFX_goal_unknown
-		cost = 6,00
+		cost = 0
 		prerequisite = {
-			focus = FRA_brazil_send_volunteers
+			focus = FRA_Elimination_of_opponents
 		}
-		x = 32
-		y = 5
+		x = 25
+		y = 11
 
 	}
 	focus = {
-		id = FRA_china
+		id = FRA_Cleaning_up_the_National_Assembly
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 0
 		prerequisite = {
-			focus = FRA_foreign_policy
+			focus = FRA_Surveillance_of_the_Axion_Francaise
+		}
+		prerequisite = {
+			focus = FRA_Surveillance_of_neo_socialists
+		}
+		x = 26
+		y = 12
+
+	}
+	focus = {
+		id = FRA_the_absolute_majority_of_the_FNP
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = FRA_Cleaning_up_the_National_Assembly
+		}
+		x = 26
+		y = 13
+
+	}
+	focus = {
+		id = FRA_ruling_with_a_steel_fist
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = FRA_Militarization_of_the_population
+		}
+		prerequisite = {
+			focus = FRA_Our_own_Age_of_Enlightenment
+		}
+		prerequisite = {
+			focus = FRA_the_absolute_majority_of_the_FNP
+		}
+		x = 31
+		y = 15
+
+	}
+	focus = {
+		id = FRA_The_Rebirth_of_the_French_nation
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = FRA_The_new_chiefdom
+		}
+		x = 38
+		y = 10
+
+	}
+	focus = {
+		id = FRA_The_French_racial_manifesto
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = FRA_The_Rebirth_of_the_French_nation
+		}
+		x = 37
+		y = 11
+
+	}
+	focus = {
+		id = FRA_persecution_of_Jews_Germans_and_Russians
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = FRA_The_Rebirth_of_the_French_nation
+		}
+		x = 39
+		y = 11
+
+	}
+	focus = {
+		id = FRA_The_new_French_man
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = FRA_The_French_racial_manifesto
 		}
 		x = 36
-		y = 2
+		y = 12
+
+	}
+	focus = {
+		id = FRA_The_French_woman_is_the_keeper_of_the_hearth
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = FRA_persecution_of_Jews_Germans_and_Russians
+		}
+		x = 38
+		y = 12
+
+	}
+	focus = {
+		id = FRA_labor_liberates
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = FRA_The_French_woman_is_the_keeper_of_the_hearth
+		}
+		x = 38
+		y = 13
+
+	}
+	focus = {
+		id = FRA_esoteric_research
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = FRA_The_new_French_man
+		}
+		x = 36
+		y = 13
+
+	}
+	focus = {
+		id = FRA_cleansing_the_French_nation_aof_dirt
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = FRA_esoteric_research
+		}
+		prerequisite = {
+			focus = FRA_labor_liberates
+		}
+		x = 37
+		y = 14
+
+	}
+	focus = {
+		id = FRA_Social_Darwinian_politics
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = FRA_cleansing_the_French_nation_aof_dirt
+		}
+		x = 36
+		y = 15
+
+	}
+	focus = {
+		id = FRA_to_the_greatest_goal
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = FRA_ruling_with_a_steel_fist
+		}
+		prerequisite = {
+			focus = FRA_Social_Darwinian_politics
+		}
+		x = 31
+		y = 16
+
+	}
+	focus = {
+		id = FRA_The_foundation_of_the_continental
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = FRA_to_the_greatest_goal
+		}
+		x = 31
+		y = 17
+
+	}
+	focus = {
+		id = FRA_There_can_be_only_one_great_leader_in_a_state
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = FRA_The_foundation_of_the_continental
+		}
+		x = 31
+		y = 18
+
+	}
+	focus = {
+		id = FRA_The_ideal_French_state
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = FRA_The_foundation_of_the_continental
+		}
+		x = 29
+		y = 18
+
+	}
+	focus = {
+		id = FRA_To_use_captured_Germans_as_slaves
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = FRA_The_foundation_of_the_continental
+		}
+		x = 27
+		y = 18
+
+	}
+	focus = {
+		id = FRA_The_dominance_of_state_owned_corporations
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = FRA_The_foundation_of_the_continental
+		}
+		x = 33
+		y = 18
+
+	}
+	focus = {
+		id = FRA_ideology_in_all_spheres_of_life
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = FRA_The_foundation_of_the_continental
+		}
+		x = 35
+		y = 18
+
+	}
+	focus = {
+		id = FRA_Our_place_in_the_sun
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = FRA_To_use_captured_Germans_as_slaves
+		}
+		prerequisite = {
+			focus = FRA_The_ideal_French_state
+		}
+		prerequisite = {
+			focus = FRA_There_can_be_only_one_great_leader_in_a_state
+		}
+		prerequisite = {
+			focus = FRA_The_dominance_of_state_owned_corporations
+		}
+		prerequisite = {
+			focus = FRA_ideology_in_all_spheres_of_life
+		}
+		x = 31
+		y = 19
 
 	}
 }
